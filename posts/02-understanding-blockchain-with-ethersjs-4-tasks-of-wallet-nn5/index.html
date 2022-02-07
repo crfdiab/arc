@@ -1,0 +1,578 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=theme-color content="dark">
+<title>02 Understanding Blockchain with ethersjs 4 Tasks of wallet | Dev Arc</title>
+<meta property="og:site_name" content="Hugo Tania is Amazing">
+<meta property="og:title" content="02 Understanding Blockchain with ethersjs 4 Tasks of wallet | Dev Arc">
+<meta itemprop=name content="02 Understanding Blockchain with ethersjs 4 Tasks of wallet | Dev Arc">
+<meta name=twitter:title content="02 Understanding Blockchain with ethersjs 4 Tasks of wallet | Dev Arc">
+<meta name=application-name content="02 Understanding Blockchain with ethersjs 4 Tasks of wallet | Dev Arc"><meta name=twitter:card content="summary">
+<meta name=description content="Ethersjs provides functions to deal with Ethereum blockchain wallet You can find Ethersjs">
+<meta name=twitter:description content="Ethersjs provides functions to deal with Ethereum blockchain wallet You can find Ethersjs ">
+<meta itemprop=description content=" Ethersjs provides functions to deal with Ethereum blockchain wallet You can find Ethersjs ">
+<meta property="og:description" content=" Ethersjs provides functions to deal with Ethereum blockchain wallet You can find Ethersjs ">
+<link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=stylesheet href=/sass/main.min.ab99ff095f832511e24ffb2fba2b51ad473b2f7e9301d674eba2c6c3a6e8bd81.css>
+</head>
+<script>(function(){const a='ThemeColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='ThemeColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.userColorScheme='dark':document.documentElement.dataset.userColorScheme='light'})()</script>
+<body class=dark>
+<nav class=navbar>
+<div class=container>
+<div class=flex>
+<div>
+<a class=brand href=/>
+<img src=/favicon.ico>
+Dev Arc
+</a>
+</div>
+<div class=flex>
+<a href=/>Home</a>
+<a href=/tags/>Tags</a>
+<button id=dark-mode-button><svg class="light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)" viewBox="0 0 36 36"><path fill="#ffd983" d="M30.312.776C32 19 20 32 .776 30.312c8.199 7.717 21.091 7.588 29.107-.429C37.9 21.867 38.03 8.975 30.312.776z"/><path d="M30.705 15.915a1.163 1.163.0 101.643 1.641 1.163 1.163.0 00-1.643-1.641zm-16.022 14.38a1.74 1.74.0 000 2.465 1.742 1.742.0 100-2.465zm13.968-2.147a2.904 2.904.0 01-4.108.0 2.902 2.902.0 010-4.107 2.902 2.902.0 014.108.0 2.902 2.902.0 010 4.107z" fill="#ffcc4d"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)"/></svg><svg class="dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)" viewBox="0 0 36 36"><path fill="#ffd983" d="M16 2s0-2 2-2 2 2 2 2v2s0 2-2 2-2-2-2-2V2zm18 14s2 0 2 2-2 2-2 2h-2s-2 0-2-2 2-2 2-2h2zM4 16s2 0 2 2-2 2-2 2H2s-2 0-2-2 2-2 2-2h2zm5.121-8.707s1.414 1.414.0 2.828-2.828.0-2.828.0L4.878 8.708s-1.414-1.414.0-2.829c1.415-1.414 2.829.0 2.829.0l1.414 1.414zm21 21s1.414 1.414.0 2.828-2.828.0-2.828.0l-1.414-1.414s-1.414-1.414.0-2.828 2.828.0 2.828.0l1.414 1.414zm-.413-18.172s-1.414 1.414-2.828.0.0-2.828.0-2.828l1.414-1.414s1.414-1.414 2.828.0.0 2.828.0 2.828l-1.414 1.414zm-21 21s-1.414 1.414-2.828.0.0-2.828.0-2.828l1.414-1.414s1.414-1.414 2.828.0.0 2.828.0 2.828l-1.414 1.414zM16 32s0-2 2-2 2 2 2 2v2s0 2-2 2-2-2-2-2v-2z"/><circle fill="#ffd983" cx="18" cy="18" r="10"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)"/></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<main>
+<div class=container>
+<article>
+<header class=article-header>
+<div class=thumb>
+<div>
+<h1>02 Understanding Blockchain with ethersjs 4 Tasks of wallet</h1>
+<div class=post-meta>
+<div>
+By fangjun | <time>January 31, 2022</time>
+| 4 minutes
+</div>
+<div class=tags>
+<a href=/tags/blockchain/>blockchain</a>
+<a href=/tags/web3/> web3</a>
+<a href=/tags/ethersjs/> ethersjs</a>
+<a href=/tags/dapp/> dapp</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+</article>
+<div class=article-post>
+<p><code>Ethers.js</code> provides functions to deal with Ethereum blockchain wallet. You can find <code>Ethers.js</code> documents about Wallet <a href=https://docs.ethers.io/v5/api/signer/#Wallet>here</a>.</p>
+<p>Get a better understanding with the following tasks:</p>
+<hr>
+<h2 id=task-1-create-wallet-from-mnemonic-and-privatekey>
+<a href=#task-1-create-wallet-from-mnemonic-and-privatekey class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1: Create wallet from mnemonic and privateKey
+</h2>
+<h4 id=task-11-create-wallet-from-mnemonic>
+<a href=#task-11-create-wallet-from-mnemonic class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.1 Create wallet from mnemonic
+</h4>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>mnemonic</span><span class=o>=</span><span class=s1>&#39;myth like bonus scare over problem client lizard pioneer submit female collect&#39;</span>
+
+<span class=c1>//check whether it is valid mnemonic
+</span><span class=c1></span><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>isValidMnemonic</span><span class=p>(</span><span class=nx>mnemonic</span><span class=p>)</span>
+
+<span class=nx>wallet</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>Wallet</span><span class=p>.</span><span class=nx>fromMnemonic</span><span class=p>(</span><span class=nx>mnemonic</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Note: You should never write your mnemonic and privateKey in your script like this, it&rsquo;s dangerous.</p>
+<p>The mnemonic and privateKey used here are the default ones used in <code>Ganache-cli</code> and are public.</p>
+<h3 id=task-12-address-public-key-and-private-key>
+<a href=#task-12-address-public-key-and-private-key class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.2 Address, Public key and Private key
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span>
+<span class=c1>//&#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&#39;
+</span><span class=c1></span>
+<span class=nx>wallet</span><span class=p>.</span><span class=nx>privateKey</span>
+<span class=s1>&#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&#39;</span>
+
+<span class=nx>wallet</span><span class=p>.</span><span class=nx>publicKey</span>
+<span class=s1>&#39;0x04e68acfc0253a10620dff706b0a1b1f1f5833ea3beb3bde2250d5f271f3563606672ebc45e0b7ea2e816ecb70ca03137b1c9476eec63d4632e990020b7b6fba39&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>This is the address with path &ldquo;m/44'/60'/0'/0/0&rdquo;.</p>
+<p>We can also get mnemonic of wallet if it is created from mnemonic.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>wallet</span><span class=p>.</span><span class=nx>mnemonic</span>
+<span class=p>{</span>
+  <span class=nx>phrase</span><span class=o>:</span> <span class=s1>&#39;myth like bonus scare over problem client lizard pioneer submit female collect&#39;</span><span class=p>,</span>
+  <span class=nx>path</span><span class=o>:</span> <span class=s2>&#34;m/44&#39;/60&#39;/0&#39;/0/0&#34;</span><span class=p>,</span>
+  <span class=nx>locale</span><span class=o>:</span> <span class=s1>&#39;en&#39;</span>
+<span class=p>}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id=task-13-create-wallet-from-privatekey>
+<a href=#task-13-create-wallet-from-privatekey class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.3 Create wallet from privateKey
+</h3>
+<p>We can also create wallet from privateKey. Wallet created in this way has no mnemonic property.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>privateKey</span><span class=o>=</span><span class=s1>&#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&#39;</span>
+<span class=nx>wallet</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>Wallet</span><span class=p>(</span><span class=nx>privateKey</span><span class=p>)</span>
+
+<span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span>
+<span class=c1>//&#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&#39;
+</span><span class=c1></span><span class=nx>wallet</span><span class=p>.</span><span class=nx>mnemonic</span>
+<span class=c1>//null
+</span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id=task-2-create-20-addresses-with-mnemonic>
+<a href=#task-2-create-20-addresses-with-mnemonic class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2: create 20 addresses with mnemonic
+</h2>
+<p>We will use <code>Ethers.js</code> utility for <a href=https://docs.ethers.io/v5/api/utils/hdnode/#hdnodes>HD Wallet (HDNode)</a> to do this.</p>
+<h3 id=task-21-create-hdnode-instance-from-mnemonic>
+<a href=#task-21-create-hdnode-instance-from-mnemonic class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.1 Create HDNode instance from mnemonic
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>mnemonic</span><span class=o>=</span><span class=s1>&#39;myth like bonus scare over problem client lizard pioneer submit female collect&#39;</span>
+
+<span class=nx>hdnode</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>HDNode</span><span class=p>.</span><span class=nx>fromMnemonic</span><span class=p>(</span><span class=nx>mnemonic</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id=task-22-get-20-addresses>
+<a href=#task-22-get-20-addresses class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.2 Get 20 addresses
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>basepathstr</span> <span class=o>=</span> <span class=s2>&#34;m/44&#39;/60&#39;/0&#39;/0/&#34;</span>
+<span class=k>for</span><span class=p>(</span><span class=nx>i</span><span class=o>=</span><span class=mi>0</span><span class=p>;</span><span class=nx>i</span><span class=o>&lt;</span><span class=mi>20</span><span class=p>;</span><span class=nx>i</span><span class=o>++</span><span class=p>){</span><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>hdnode</span><span class=p>.</span><span class=nx>derivePath</span><span class=p>(</span><span class=nx>basepathstr</span><span class=o>+</span><span class=nx>i</span><span class=p>.</span><span class=nx>toString</span><span class=p>()).</span><span class=nx>address</span><span class=p>)}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>result:</p>
+<pre tabindex=0><code>0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0
+0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b
+......
+</code></pre><p>The first is with path: &ldquo;m/44'/60'/0'/0/0&rdquo;
+The second is with path: &ldquo;m/44'/60'/0'/0/1&rdquo;
+The third is with path: &ldquo;m/44'/60'/0'/0/2&rdquo;</p>
+<h3 id=task-23-get-address-with-path>
+<a href=#task-23-get-address-with-path class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.3 Get address with path
+</h3>
+<p>We can also get wallet address with path.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>mnemonic</span><span class=o>=</span><span class=s1>&#39;myth like bonus scare over problem client lizard pioneer submit female collect&#39;</span>
+
+<span class=nx>wallet</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>Wallet</span><span class=p>.</span><span class=nx>fromMnemonic</span><span class=p>(</span><span class=nx>mnemonic</span><span class=p>,</span><span class=s2>&#34;m/44&#39;/60&#39;/0&#39;/0/1&#34;</span><span class=p>)</span>
+<span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span>
+<span class=c1>//&#39;0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id=task-3-sign-message-with-wallet>
+<a href=#task-3-sign-message-with-wallet class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3: Sign message with wallet
+</h2>
+<h3 id=task-31-prepare-wallet-as-a-signer>
+<a href=#task-31-prepare-wallet-as-a-signer class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.1: Prepare wallet as a signer
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>mnemonic</span><span class=o>=</span><span class=s1>&#39;myth like bonus scare over problem client lizard pioneer submit female collect&#39;</span>
+<span class=nx>wallet</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>Wallet</span><span class=p>.</span><span class=nx>fromMnemonic</span><span class=p>(</span><span class=nx>mnemonic</span><span class=p>,</span><span class=s2>&#34;m/44&#39;/60&#39;/0&#39;/0/1&#34;</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id=task-32-sign-message>
+<a href=#task-32-sign-message class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.2: sign message
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>message</span> <span class=o>=</span> <span class=s2>&#34;solidity-class&#34;</span>
+<span class=nx>sig</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>wallet</span><span class=p>.</span><span class=nx>signMessage</span><span class=p>(</span><span class=nx>message</span><span class=p>)</span>
+<span class=c1>//&#39;0x8637dce5aeb0b9bd9ee8ce909252806ede88eebc3789436f8f569dd1e45f3f2b47e6633d4119c26917e4b2e08c422028df2209a8ca401f77d4aab9f24b6a40831b&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>The signature is result to signing: &ldquo;\x19Ethereum Signed Message:\n&rdquo; + message.length + message. <a href=https://docs.ethers.io/v5/api/signer/#Signer-signMessage>Ethers.js docs</a> explains:</p>
+<blockquote>
+<p>A signed message is prefixd with &ldquo;\x19Ethereum Signed Message:\n&rdquo; and the length of the message, using the hashMessage method, so that it is EIP-191 compliant. If recovering the address in Solidity, this prefix will be required to create a matching hash.</p>
+</blockquote>
+<h3 id=task-33-verify-message>
+<a href=#task-33-verify-message class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.3: verify message
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>verifyMessage</span><span class=p>(</span><span class=nx>message</span><span class=p>,</span><span class=nx>sig</span><span class=p>)</span>
+<span class=c1>//&#39;0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-34-sign-message-hash>
+<a href=#task-34-sign-message-hash class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.4: sign message hash
+</h3>
+<p>We can hash the message by ourselves and sign messagehash instead. We got the same signature.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>messageHash</span><span class=o>=</span>  <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>hashMessage</span><span class=p>(</span><span class=nx>message</span><span class=p>)</span>
+<span class=nx>sig</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>wallet</span><span class=p>.</span><span class=nx>signMessage</span><span class=p>(</span><span class=nx>messageHash</span><span class=p>)</span>
+<span class=c1>//&#39;0xfc40fcec036bd4501ce3bfaf991d561553db6d3601702f8abed9f733eab31a5246163711f71ad48b002ddf83c7cd93656047759ab8e2ff4420c59d5845680ca11b&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-35-understanding-signature>
+<a href=#task-35-understanding-signature class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.5 Understanding signature
+</h3>
+<p>Get the r,s,v of the signature which is r+s+v.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>r</span> <span class=o>=</span> <span class=nx>sig</span><span class=p>.</span><span class=nx>slice</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=mi>66</span><span class=p>);</span>
+<span class=kr>const</span> <span class=nx>s</span> <span class=o>=</span> <span class=s1>&#39;0x&#39;</span> <span class=o>+</span> <span class=nx>sig</span><span class=p>.</span><span class=nx>slice</span><span class=p>(</span><span class=mi>66</span><span class=p>,</span> <span class=mi>130</span><span class=p>);</span>
+<span class=kr>const</span> <span class=nx>v</span> <span class=o>=</span> <span class=s1>&#39;0x&#39;</span> <span class=o>+</span> <span class=nx>sig</span><span class=p>.</span><span class=nx>slice</span><span class=p>(</span><span class=mi>130</span><span class=p>,</span> <span class=mi>132</span><span class=p>);</span>
+</code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id=task-4-send-transaction-from-wallet>
+<a href=#task-4-send-transaction-from-wallet class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4: Send transaction from wallet
+</h2>
+<h3 id=task-41-create-wallet>
+<a href=#task-41-create-wallet class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.1 Create wallet
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span><span class=lnt>9
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=c1>// get wallet account not in hardhat default
+</span><span class=c1></span><span class=nx>privateKey</span><span class=o>=</span><span class=s1>&#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&#39;</span>
+<span class=nx>wallet</span> <span class=o>=</span> <span class=k>new</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>Wallet</span><span class=p>(</span><span class=nx>privateKey</span><span class=p>)</span>
+
+<span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span>
+<span class=c1>//&#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&#39;
+</span><span class=c1></span>
+<span class=nx>wallet</span><span class=p>.</span><span class=nx>provider</span>
+<span class=c1>//null
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-42-send-ethers-from-account-0-to-test-account>
+<a href=#task-42-send-ethers-from-account-0-to-test-account class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.2 send ethers from account 0 to test account
+</h3>
+<p>You can send Test Ethers to test wallet address for gas fee usage using MetaMask.</p>
+<p>Or you can do it in the console as we do in previous part of this tutorial:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>signer</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>.</span><span class=nx>getSigner</span><span class=p>()</span>
+<span class=nx>send_address</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getAddress</span><span class=p>()</span>
+
+<span class=nx>to_address</span> <span class=o>=</span> <span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span>
+<span class=nx>nonce</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getTransactionCount</span><span class=p>()</span>
+<span class=nx>gas_price</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getGasPrice</span><span class=p>()</span>
+<span class=nx>gas_limit</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>hexlify</span><span class=p>(</span><span class=mi>21000</span><span class=p>)</span>
+<span class=nx>value</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>parseUnits</span><span class=p>(</span><span class=s1>&#39;100.0&#39;</span><span class=p>)</span>
+
+<span class=nx>tx</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>from</span><span class=o>:</span> <span class=nx>send_address</span><span class=p>,</span>
+  <span class=nx>to</span><span class=o>:</span> <span class=nx>to_address</span><span class=p>,</span>
+  <span class=nx>value</span><span class=o>:</span> <span class=nx>value</span><span class=p>,</span>
+  <span class=nx>nonce</span><span class=o>:</span> <span class=nx>nonce</span><span class=p>,</span>
+  <span class=nx>gasLimit</span><span class=o>:</span> <span class=nx>gas_limit</span><span class=p>,</span>
+  <span class=nx>gasPrice</span><span class=o>:</span> <span class=nx>gas_price</span><span class=p>,</span>
+<span class=p>}</span>
+
+<span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>sendTransaction</span><span class=p>(</span><span class=nx>tx</span><span class=p>)</span>
+
+<span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>.</span><span class=nx>getBalance</span><span class=p>(</span><span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span><span class=p>).</span><span class=nx>then</span><span class=p>(</span><span class=nx>result</span><span class=p>=&gt;</span><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>formatEther</span><span class=p>(</span><span class=nx>result</span><span class=p>))</span>
+<span class=c1>//&#39;100.0&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-43-try-to-send-from-wallet-wrongly>
+<a href=#task-43-try-to-send-from-wallet-wrongly class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.3 Try to send from wallet wrongly
+</h3>
+<p>Let us try to call sendTransaction from signer which is different with the <code>send_address</code>.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>send_address</span> <span class=o>=</span> <span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span>
+
+<span class=nx>to_address</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getAddress</span><span class=p>()</span>
+<span class=nx>nonce</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getTransactionCount</span><span class=p>()</span>
+<span class=nx>gas_price</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getGasPrice</span><span class=p>()</span>
+<span class=nx>gas_limit</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>hexlify</span><span class=p>(</span><span class=mi>21000</span><span class=p>)</span>
+<span class=nx>value</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>parseUnits</span><span class=p>(</span><span class=s1>&#39;1.0&#39;</span><span class=p>)</span>
+
+<span class=nx>tx</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>from</span><span class=o>:</span> <span class=nx>send_address</span><span class=p>,</span>
+  <span class=nx>to</span><span class=o>:</span> <span class=nx>to_address</span><span class=p>,</span>
+  <span class=nx>value</span><span class=o>:</span> <span class=nx>value</span><span class=p>,</span>
+  <span class=nx>nonce</span><span class=o>:</span> <span class=nx>nonce</span><span class=p>,</span>
+  <span class=nx>gasLimit</span><span class=o>:</span> <span class=nx>gas_limit</span><span class=p>,</span>
+  <span class=nx>gasPrice</span><span class=o>:</span> <span class=nx>gas_price</span><span class=p>,</span>
+<span class=p>}</span>
+
+<span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>sendTransaction</span><span class=p>(</span><span class=nx>tx</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>We got an Error: &ldquo;Error: from address mismatch&rdquo;.</p>
+<h3 id=task-44-send-from-wallet---connect-wallet-to-get-signer>
+<a href=#task-44-send-from-wallet---connect-wallet-to-get-signer class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.4 Send from wallet - connect wallet to get signer
+</h3>
+<p>First, connect wallet to provider. The return of <code>connect()</code> is the wallet instance which can be a signer.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>walletsigner</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>wallet</span><span class=p>.</span><span class=nx>connect</span><span class=p>(</span><span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>)</span>
+<span class=nx>walletsigner</span><span class=p>.</span><span class=nx>address</span>
+<span class=c1>//&#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-44-send-eth-using-wallet-as-a-signer>
+<a href=#task-44-send-eth-using-wallet-as-a-signer class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.4 Send ETH using wallet as a signer
+</h3>
+<p>Second, <code>sendTransaction</code> with walletsigner:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>to_address</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getAddress</span><span class=p>()</span>
+<span class=nx>nonce</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>walletsigner</span><span class=p>.</span><span class=nx>getTransactionCount</span><span class=p>()</span>
+<span class=nx>gas_price</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getGasPrice</span><span class=p>()</span>
+<span class=nx>gas_limit</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>hexlify</span><span class=p>(</span><span class=mi>21000</span><span class=p>)</span>
+<span class=nx>value</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>parseUnits</span><span class=p>(</span><span class=s1>&#39;1.0&#39;</span><span class=p>)</span>
+
+<span class=nx>tx</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>from</span><span class=o>:</span> <span class=nx>send_address</span><span class=p>,</span>
+  <span class=nx>to</span><span class=o>:</span> <span class=nx>to_address</span><span class=p>,</span>
+  <span class=nx>value</span><span class=o>:</span> <span class=nx>value</span><span class=p>,</span>
+  <span class=nx>nonce</span><span class=o>:</span> <span class=nx>nonce</span><span class=p>,</span>
+  <span class=nx>gasLimit</span><span class=o>:</span> <span class=nx>gas_limit</span><span class=p>,</span>
+  <span class=nx>gasPrice</span><span class=o>:</span> <span class=nx>gas_price</span><span class=p>,</span>
+<span class=p>}</span>
+
+<span class=kr>await</span> <span class=nx>walletsigner</span><span class=p>.</span><span class=nx>sendTransaction</span><span class=p>(</span><span class=nx>tx</span><span class=p>)</span>
+
+<span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>.</span><span class=nx>getBalance</span><span class=p>(</span><span class=nx>wallet</span><span class=p>.</span><span class=nx>address</span><span class=p>).</span><span class=nx>then</span><span class=p>(</span><span class=nx>result</span><span class=p>=&gt;</span><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>formatEther</span><span class=p>(</span><span class=nx>result</span><span class=p>))</span>
+<span class=c1>//&#39;98.999968220292873&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<p>If you find this note useful, please follow my twitter <a href=https://twitter.com/fjun99>@fjun99</a>.</p>
+<hr>
+<br>
+<h3>See Also</h3>
+<ul>
+<li><a href=/posts/01-understanding-blockchain-with-ethersjs-4-tasks-of-basics-and-transfer-5d17/>01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer</a></li>
+</ul>
+</div>
+</div>
+<div class=container>
+<nav class="flex container suggested">
+<a rel=prev href=/posts/01-understanding-blockchain-with-ethersjs-4-tasks-of-basics-and-transfer-5d17/ title="Previous post (older)">
+<span>Previous</span>
+01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer
+</a>
+<a rel=next href=/posts/03-understanding-blockchain-with-ethersjs-4-tasks-of-interacting-with-smart-contract-3ef6/ title="Next post (newer)">
+<span>Next</span>
+03 Understanding Blockchain with ethersjs 4 Tasks of interacting with smart contract
+</a>
+</nav>
+</div>
+<div class=container>
+<script src=https://giscus.app/client.js data-repo=WingLim/hugo-tania data-repo-id="MDEwOlJlcG9zaXRvcnkzMTYyNjQzMDc=" data-category=Comments data-category-id=DIC_kwDOEtnPc84B_WKP data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
+<script>function setGiscusTeheme(b){let a=document.querySelector('.giscus iframe');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},'https://giscus.app')}addEventListener('message',a=>{if(a.origin!=='https://giscus.app')return;setGiscusTeheme(document.documentElement.dataset.userColorScheme)}),window.addEventListener('onColorSchemeChange',a=>{setGiscusTeheme(a.detail)})</script>
+</div>
+</main>
+</main>
+<footer class="footer flex">
+<section class=container>
+<nav class=footer-links>
+<a href=/index.xml>RSS</a>
+</nav>
+</section>
+<script defer src=/ts/features.a534d05c446023fa2ae2a638f87cc2443ad8e49f6aaeb4d9f24ed61d53766712.js data-enable-footnotes=true></script>
+</footer>
+</body>
+</html>

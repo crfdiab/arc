@@ -1,0 +1,533 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=theme-color content="dark">
+<title>01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer | Dev Arc</title>
+<meta property="og:site_name" content="Hugo Tania is Amazing">
+<meta property="og:title" content="01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer | Dev Arc">
+<meta itemprop=name content="01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer | Dev Arc">
+<meta name=twitter:title content="01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer | Dev Arc">
+<meta name=application-name content="01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer | Dev Arc"><meta name=twitter:card content="summary">
+<meta name=description content="As a web3 developer you can play with Ethereum blockchain using Ethersjs to get a deeper">
+<meta name=twitter:description content="As a web3 developer you can play with Ethereum blockchain using Ethersjs to get a deeper ">
+<meta itemprop=description content=" As a web3 developer you can play with Ethereum blockchain using Ethersjs to get a deeper ">
+<meta property="og:description" content=" As a web3 developer you can play with Ethereum blockchain using Ethersjs to get a deeper ">
+<link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=stylesheet href=/sass/main.min.ab99ff095f832511e24ffb2fba2b51ad473b2f7e9301d674eba2c6c3a6e8bd81.css>
+</head>
+<script>(function(){const a='ThemeColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='ThemeColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.userColorScheme='dark':document.documentElement.dataset.userColorScheme='light'})()</script>
+<body class=dark>
+<nav class=navbar>
+<div class=container>
+<div class=flex>
+<div>
+<a class=brand href=/>
+<img src=/favicon.ico>
+Dev Arc
+</a>
+</div>
+<div class=flex>
+<a href=/>Home</a>
+<a href=/tags/>Tags</a>
+<button id=dark-mode-button><svg class="light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)" viewBox="0 0 36 36"><path fill="#ffd983" d="M30.312.776C32 19 20 32 .776 30.312c8.199 7.717 21.091 7.588 29.107-.429C37.9 21.867 38.03 8.975 30.312.776z"/><path d="M30.705 15.915a1.163 1.163.0 101.643 1.641 1.163 1.163.0 00-1.643-1.641zm-16.022 14.38a1.74 1.74.0 000 2.465 1.742 1.742.0 100-2.465zm13.968-2.147a2.904 2.904.0 01-4.108.0 2.902 2.902.0 010-4.107 2.902 2.902.0 014.108.0 2.902 2.902.0 010 4.107z" fill="#ffcc4d"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)"/></svg><svg class="dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)" viewBox="0 0 36 36"><path fill="#ffd983" d="M16 2s0-2 2-2 2 2 2 2v2s0 2-2 2-2-2-2-2V2zm18 14s2 0 2 2-2 2-2 2h-2s-2 0-2-2 2-2 2-2h2zM4 16s2 0 2 2-2 2-2 2H2s-2 0-2-2 2-2 2-2h2zm5.121-8.707s1.414 1.414.0 2.828-2.828.0-2.828.0L4.878 8.708s-1.414-1.414.0-2.829c1.415-1.414 2.829.0 2.829.0l1.414 1.414zm21 21s1.414 1.414.0 2.828-2.828.0-2.828.0l-1.414-1.414s-1.414-1.414.0-2.828 2.828.0 2.828.0l1.414 1.414zm-.413-18.172s-1.414 1.414-2.828.0.0-2.828.0-2.828l1.414-1.414s1.414-1.414 2.828.0.0 2.828.0 2.828l-1.414 1.414zm-21 21s-1.414 1.414-2.828.0.0-2.828.0-2.828l1.414-1.414s1.414-1.414 2.828.0.0 2.828.0 2.828l-1.414 1.414zM16 32s0-2 2-2 2 2 2 2v2s0 2-2 2-2-2-2-2v-2z"/><circle fill="#ffd983" cx="18" cy="18" r="10"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)"/></svg>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<main>
+<div class=container>
+<article>
+<header class=article-header>
+<div class=thumb>
+<div>
+<h1>01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer</h1>
+<div class=post-meta>
+<div>
+By fangjun | <time>January 31, 2022</time>
+| 5 minutes
+</div>
+<div class=tags>
+<a href=/tags/blockchain/>blockchain</a>
+<a href=/tags/web3/> web3</a>
+<a href=/tags/ethersjs/> ethersjs</a>
+<a href=/tags/dapp/> dapp</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+</article>
+<div class=article-post>
+<p>As a web3 developer, you can play with Ethereum blockchain using <code>Ethers.js</code> to get a deeper understanding. This 3-parts tutorial lists 12 tasks for you.</p>
+<p><code>Ethers.js</code> is a Javascript API for Ethereum blockchain which can work with Mainnet, testnet such as Ropsten, Rinkeby, local testnet, Layer 2 and sidechains.</p>
+<p>We will use Hardhat Ethereum development environment to set up a playground as it can provide all the components we need:</p>
+<ul>
+<li>local testnet: Hardhat Network based on <code>@ethereumjs/vm</code></li>
+<li>interactive console: Hardhat console</li>
+<li>solidity development tools: Hardhat</li>
+<li>ethers.js: Ethereum Javascript API</li>
+</ul>
+<p>Hardhat brings in <code>ethers.js</code> with plugin <code>hardhat-ethers</code>.</p>
+<p>Ethers.js documents: <a href=https://docs.ethers.io/v5/>https://docs.ethers.io/v5/</a></p>
+<hr>
+<h2 id=task-1-setup-ethersjs-playground-with-hardhat>
+<a href=#task-1-setup-ethersjs-playground-with-hardhat class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1: Setup ethers.js playground with Hardhat
+</h2>
+<p>You need to have <code>node.js</code> and <code>yarn</code> installed in your computer.</p>
+<h3 id=task-11-install-hardhat>
+<a href=#task-11-install-hardhat class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.1 Install Hardhat
+</h3>
+<p>Run in command line:</p>
+<pre tabindex=0><code>mkdir playeth &amp;&amp; cd playeth
+yarn add hardhat
+</code></pre><h3 id=task-12-init-hardhat-project>
+<a href=#task-12-init-hardhat-project class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.2 Init Hardhat project
+</h3>
+<p>You can init a Hardhat project by running:</p>
+<pre tabindex=0><code>yarn hardhat 
+</code></pre><p>Choose Option &ldquo;Create an advanced sample project that uses TypeScript&rdquo;. A sample hardhat project will be created.</p>
+<h3 id=task-13-run-a-stand-alone-local-testnet>
+<a href=#task-13-run-a-stand-alone-local-testnet class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.3 Run a stand-alone local testnet
+</h3>
+<p>In another terminal, run a stand-alone local testnet &ldquo;Hardhat Network&rdquo; by running:</p>
+<pre tabindex=0><code>yarn hardhat node
+</code></pre><p>More about in-process and stand-alone mode of Hardhat Network can be found <a href=https://hardhat.org/hardhat-network/#how-does-it-work>here</a>.</p>
+<h3 id=task-14-enter-hardhat-console>
+<a href=#task-14-enter-hardhat-console class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 1.4 Enter Hardhat console
+</h3>
+<p>Run Hardhat console connecting to blockchain testnet localhost:</p>
+<pre tabindex=0><code>yarn hardhat console --network localhost
+</code></pre><p>Check <code>ethers.js</code> version and get the current blocknumber in console:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>ethers</span><span class=p>.</span><span class=nx>version</span>
+<span class=c1>//&#39;ethers/5.5.3&#39;
+</span><span class=c1></span>
+<span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>.</span><span class=nx>getBlockNumber</span><span class=p>()</span>
+<span class=c1>//0
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Now, you have an ethers.js playground with an interactive console and a local testnet.</p>
+<hr>
+<h2 id=task-2-have-a-look-at-blockchain>
+<a href=#task-2-have-a-look-at-blockchain class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2: Have a look at blockchain
+</h2>
+<p>Currently Hardhat console is connected to a local blockchain testnet at http://localhost:8545. Let&rsquo;s have a look at the blockchain with <code>Ethers.js</code>.</p>
+<p><code>Ethers.js</code> provide &ldquo;Provider&rdquo; and &ldquo;Signer&rdquo; for interaction with blockchain. Its document explains:</p>
+<ul>
+<li>
+<p>A <a href=https://docs.ethers.io/v5/api/providers/provider/>Provider</a> in ethers is a read-only abstraction to access the blockchain data.</p>
+</li>
+<li>
+<p>A <a href=https://docs.ethers.io/v5/api/signer/>Signer</a> in ethers is an abstraction of an Ethereum Account, which can be used to sign messages and transactions and send signed transactions to the Ethereum Network to execute state changing operations.</p>
+</li>
+</ul>
+<h3 id=task-21-check-connection>
+<a href=#task-21-check-connection class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.1 check connection
+</h3>
+<p>We can access provider <code>ether.provider</code>,a ethers.js wrapped Ethereum RPC provider.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>provider</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span>
+<span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>.</span><span class=nx>connection</span>
+<span class=c1>// { url: &#39;http://localhost:8545&#39; }
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-22-check-network-of-provider>
+<a href=#task-22-check-network-of-provider class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.2 check network of provider
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kr>await</span> <span class=nx>provider</span><span class=p>.</span><span class=nx>getNetwork</span><span class=p>()</span>
+<span class=c1>//{ chainId: 31337, name: &#39;unknown&#39; }
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Ethereum network with chainId 31337 is local testnet at <code>127.0.0.1:8545</code>.</p>
+<h3 id=task-23-get-signer>
+<a href=#task-23-get-signer class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.3 get signer
+</h3>
+<p>The big diffence between <code>ethers.js</code> and <code>web3.js</code> is that it seperate signer from provider. Provider can only read data from blockchain while signer can send transactions to change data on blockchain. Ethers.js docs explain signer:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kr>const</span> <span class=nx>signer</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>provider</span><span class=p>.</span><span class=nx>getSigner</span><span class=p>()</span>
+<span class=c1>//this is a JsonRpcSigner
+</span><span class=c1></span>
+<span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getAddress</span><span class=p>()</span>
+<span class=c1>//&#39;0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-24-get-all-the-accounts-with-hardhat-console>
+<a href=#task-24-get-all-the-accounts-with-hardhat-console class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 2.4 get all the accounts with Hardhat console
+</h3>
+<p>Hardhat console is running with 20 test accounts.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>accounts</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>getSigners</span><span class=p>();</span>
+<span class=nx>accounts</span><span class=p>.</span><span class=nx>length</span>
+<span class=c1>//20
+</span><span class=c1></span>
+<span class=k>for</span> <span class=p>(</span><span class=kr>const</span> <span class=nx>account</span> <span class=k>of</span> <span class=nx>accounts</span><span class=p>)</span> <span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>account</span><span class=p>.</span><span class=nx>address</span><span class=p>)</span>
+
+<span class=nx>Result</span><span class=o>:</span> 
+<span class=mh>0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266</span>
+<span class=mh>0x70997970C51812dc3A010C7d01b50e0d17dc79C8</span>
+<span class=mh>0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC</span>
+<span class=mh>0x90F79bf6EB2c4f870365E785982E1f101E93b906</span>
+<span class=p>...</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>There is a sample hardhat plugin <code>accounts</code>, you can run it in command line:</p>
+<pre tabindex=0><code>yarn hardhat accounts
+</code></pre><hr>
+<h2 id=task-3-get-eth-balance-of-an-address>
+<a href=#task-3-get-eth-balance-of-an-address class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3: Get ETH balance of an address
+</h2>
+<p>We can use <code>getBalance()</code> to get ETH balance of an address (<a href=https://docs.ethers.io/v5/api/providers/provider/#Provider-getBalance>reference link</a>). Since we only need to read data from blockchain, we will use <code>provider</code> instead of <code>signer</code>.</p>
+<h3 id=task-31-getbalance>
+<a href=#task-31-getbalance class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.1 getBalance
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>firstaddress</span> <span class=o>=</span> <span class=nx>accounts</span><span class=p>[</span><span class=mi>0</span><span class=p>].</span><span class=nx>address</span>
+<span class=nx>balance</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>provider</span><span class=p>.</span><span class=nx>getBalance</span><span class=p>(</span><span class=nx>firstaddress</span><span class=p>)</span>
+<span class=c1>//BigNumber { value: &#34;10000000000000000000000&#34; }
+</span></code></pre></td></tr></table>
+</div>
+</div><p>The return result is BigNumber, which means 10000.0 ethers. Every accountshave 10000.0 test ethers in Hardhat local testnet.</p>
+<h3 id=task-32-formatether>
+<a href=#task-32-formatether class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.2 formatEther
+</h3>
+<p>We can use ethers.js utilities for <a href=https://docs.ethers.io/v5/api/utils/display-logic/>Display Logic and Input</a> to display it in a friendly manner.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>formatEther</span><span class=p>(</span><span class=nx>balance</span><span class=p>)</span>
+<span class=c1>//&#39;10000.0&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><h3 id=task-33-parseether>
+<a href=#task-33-parseether class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 3.3 parseEther
+</h3>
+<p>We can also transfer from string to Bignumber easily.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>parseEther</span><span class=p>(</span><span class=s2>&#34;0.5&#34;</span><span class=p>);</span>
+<span class=c1>//BigNumber { value: &#34;500000000000000000&#34; }
+</span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id=task-4-send-eth-from-one-address-to-another>
+<a href=#task-4-send-eth-from-one-address-to-another class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4: Send ETH from one address to another
+</h2>
+<h3 id=task-41-send-eth-using-metamask>
+<a href=#task-41-send-eth-using-metamask class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.1 Send ETH using MetaMask
+</h3>
+<p>You can use MetaMask to transfer test ethers between accounts:</p>
+<ol>
+<li>Switch network to Localhost8545 in MetaMask</li>
+<li>Import account #0 with privateKey</li>
+<li>Transfer 100 test ETH from Account #0 to Account #1</li>
+</ol>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>Accounts</span> <span class=err>#</span><span class=mi>0</span><span class=o>:</span> <span class=mh>0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266</span>
+<span class=nx>privateKey</span><span class=o>:</span> <span class=mh>0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80</span> 
+<span class=nx>Accounts</span> <span class=err>#</span><span class=mi>1</span><span class=o>:</span> <span class=mh>0x70997970C51812dc3A010C7d01b50e0d17dc79C8</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Address #00 and privateKey to add account to MetaMask. Address #1 is the receiver.</p>
+<p>Note: Remember to change chainId from &ldquo;1337&rdquo; to &ldquo;31337&rdquo; in MetaMask network setting.</p>
+<p>You can check the results in console:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>provider</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span>
+<span class=nx>acccount_1</span><span class=o>=</span><span class=s1>&#39;0x70997970C51812dc3A010C7d01b50e0d17dc79C8&#39;</span>
+<span class=kr>await</span> <span class=nx>provider</span><span class=p>.</span><span class=nx>getBalance</span><span class=p>(</span><span class=nx>acccount_1</span><span class=p>).</span><span class=nx>then</span><span class=p>((</span><span class=nx>r</span><span class=p>)=&gt;</span><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>formatEther</span><span class=p>(</span><span class=nx>r</span><span class=p>)))</span>
+<span class=c1>//&#39;10100.0&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>Send ETH from one address to another can be done by call <code>sendTransaction</code> using Ethers.js. Related Ether.js docs is <a href=https://docs.ethers.io/v5/api/providers/provider/#Provider-sendTransaction>here</a>.</p>
+<p>Detailed explanation of Transaction can be found in Andreas M. Antonopoulos&rsquo;s book <a href=https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc>Mastering Etereum Chapter 6 Transactions</a>.</p>
+<h3 id=task-42-prepare-for-sendtransaction>
+<a href=#task-42-prepare-for-sendtransaction class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.2 Prepare for sendTransaction
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>signer</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span><span class=p>.</span><span class=nx>getSigner</span><span class=p>()</span>
+<span class=nx>send_address</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getAddress</span><span class=p>()</span>
+
+<span class=nx>accounts</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>getSigners</span><span class=p>();</span>
+<span class=nx>to_address</span> <span class=o>=</span> <span class=nx>accounts</span><span class=p>[</span><span class=mi>1</span><span class=p>].</span><span class=nx>address</span>
+
+<span class=nx>nonce</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getTransactionCount</span><span class=p>()</span>
+<span class=nx>gas_price</span> <span class=o>=</span> <span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>getGasPrice</span><span class=p>()</span>
+<span class=nx>gas_limit</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>hexlify</span><span class=p>(</span><span class=mi>21000</span><span class=p>)</span>
+
+<span class=nx>value</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>parseUnits</span><span class=p>(</span><span class=s1>&#39;100.0&#39;</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id=task-43-format-transaction>
+<a href=#task-43-format-transaction class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.3 Format transaction
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span><span class=lnt>7
+</span><span class=lnt>8
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>tx</span> <span class=o>=</span> <span class=p>{</span>
+  <span class=nx>from</span><span class=o>:</span> <span class=nx>send_address</span><span class=p>,</span>
+  <span class=nx>to</span><span class=o>:</span> <span class=nx>to_address</span><span class=p>,</span>
+  <span class=nx>value</span><span class=o>:</span> <span class=nx>value</span><span class=p>,</span>
+  <span class=nx>nonce</span><span class=o>:</span> <span class=nx>nonce</span><span class=p>,</span>
+  <span class=nx>gasLimit</span><span class=o>:</span> <span class=nx>gas_limit</span><span class=p>,</span>
+  <span class=nx>gasPrice</span><span class=o>:</span> <span class=nx>gas_price</span><span class=p>,</span>
+<span class=p>}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id=task-44-call-sendtransaction>
+<a href=#task-44-call-sendtransaction class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.4 Call &lt;code>sendTransaction&lt;/code>
+</h3>
+<p>Send transaction:</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=kr>await</span> <span class=nx>signer</span><span class=p>.</span><span class=nx>sendTransaction</span><span class=p>(</span><span class=nx>tx</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id=task-45-check-results>
+<a href=#task-45-check-results class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
+</a>
+Task 4.5 Check results
+</h3>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-js data-lang=js><span class=nx>provider</span> <span class=o>=</span> <span class=nx>ethers</span><span class=p>.</span><span class=nx>provider</span>
+<span class=kr>await</span> <span class=nx>provider</span><span class=p>.</span><span class=nx>getBalance</span><span class=p>(</span><span class=nx>to_address</span><span class=p>).</span><span class=nx>then</span><span class=p>((</span><span class=nx>r</span><span class=p>)=&gt;</span><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>formatEther</span><span class=p>(</span><span class=nx>r</span><span class=p>)))</span>
+<span class=c1>//&#39;10200.0&#39;
+</span><span class=c1></span><span class=kr>await</span> <span class=nx>provider</span><span class=p>.</span><span class=nx>getBalance</span><span class=p>(</span><span class=nx>send_address</span><span class=p>).</span><span class=nx>then</span><span class=p>((</span><span class=nx>r</span><span class=p>)=&gt;</span><span class=nx>console</span><span class=p>.</span><span class=nx>log</span><span class=p>(</span><span class=nx>ethers</span><span class=p>.</span><span class=nx>utils</span><span class=p>.</span><span class=nx>formatEther</span><span class=p>(</span><span class=nx>r</span><span class=p>)))</span>
+<span class=c1>//&#39;9799.999923543659375&#39;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>The balance of send_address is a little less than 9800.0 because it paid some ether as gas fee for the transactions.</p>
+<p>When <code>sendTransaction</code> called, it returns receipt of the transaction executed on the blockchain.</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=p>{</span>
+  <span class=err>hash:</span> <span class=err>&#39;0x8915f9df88e4f2af2eefe05922e026c66723678b7df3de11e525a03c11b391a2&#39;,</span>
+  <span class=err>type:</span> <span class=err>0,</span>
+  <span class=err>accessList:</span> <span class=err>null,</span>
+  <span class=err>blockHash:</span> <span class=err>&#39;0xfae5411b597d02b1c36a6842f14db5aad7ac2b974474f06355bd1b4eb5d438ed&#39;,</span>
+  <span class=err>blockNumber:</span> <span class=err>1,</span>
+  <span class=err>transactionIndex:</span> <span class=err>0,</span>
+  <span class=err>confirmations:</span> <span class=err>1,</span>
+  <span class=err>from:</span> <span class=err>&#39;0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&#39;,</span>
+  <span class=err>gasPrice:</span> <span class=err>BigNumber</span> <span class=err>{</span> <span class=err>value:</span> <span class=nt>&#34;1875000000&#34;</span> <span class=p>}</span><span class=err>,</span>
+  <span class=err>gasLimit:</span> <span class=err>BigNumber</span> <span class=p>{</span> <span class=err>value:</span> <span class=nt>&#34;135168&#34;</span> <span class=p>}</span><span class=err>,</span>
+  <span class=err>to:</span> <span class=err>&#39;</span><span class=mi>0</span><span class=err>x</span><span class=mi>70997970</span><span class=err>C</span><span class=mi>51812</span><span class=err>dc</span><span class=mi>3</span><span class=err>A</span><span class=mi>010</span><span class=err>C</span><span class=mi>7</span><span class=err>d</span><span class=mi>01</span><span class=err>b</span><span class=mf>50e0</span><span class=err>d</span><span class=mi>17</span><span class=err>dc</span><span class=mi>79</span><span class=err>C</span><span class=mi>8</span><span class=err>&#39;,</span>
+  <span class=err>value:</span> <span class=err>BigNumber</span> <span class=p>{</span> <span class=err>value:</span> <span class=nt>&#34;100000000000000000000&#34;</span> <span class=p>}</span><span class=err>,</span>
+  <span class=err>nonce:</span> <span class=mi>0</span><span class=err>,</span>
+  <span class=err>data:</span> <span class=err>&#39;</span><span class=mi>0</span><span class=err>x&#39;,</span>
+  <span class=err>r:</span> <span class=err>&#39;</span><span class=mi>0</span><span class=err>x</span><span class=mi>116</span><span class=err>a</span><span class=mf>4e2</span><span class=err>acba</span><span class=mi>174</span><span class=err>b</span><span class=mi>04</span><span class=err>a</span><span class=mi>6</span><span class=err>f</span><span class=mi>44248</span><span class=err>fef</span><span class=mi>0170012</span><span class=err>d</span><span class=mi>956</span><span class=err>d</span><span class=mf>20e03</span><span class=err>d</span><span class=mi>93</span><span class=err>b</span><span class=mi>1</span><span class=err>b</span><span class=mi>3368</span><span class=err>fce</span><span class=mi>09</span><span class=err>c</span><span class=mf>8e8</span><span class=err>&#39;,</span>
+  <span class=err>s:</span> <span class=err>&#39;</span><span class=mi>0</span><span class=err>x</span><span class=mi>14</span><span class=err>f</span><span class=mi>1104</span><span class=err>a</span><span class=mi>1</span><span class=err>fa</span><span class=mi>98</span><span class=err>fed</span><span class=mi>53</span><span class=err>a</span><span class=mi>06</span><span class=err>a</span><span class=mi>4</span><span class=err>a</span><span class=mi>7</span><span class=err>a</span><span class=mi>6464503</span><span class=err>d</span><span class=mi>1</span><span class=err>f</span><span class=mi>8</span><span class=err>a</span><span class=mi>822191</span><span class=err>c</span><span class=mi>022</span><span class=err>a</span><span class=mf>2180e45</span><span class=err>c</span><span class=mi>258809</span><span class=err>b&#39;,</span>
+  <span class=err>v:</span> <span class=mi>62710</span><span class=err>,</span>
+  <span class=err>creates:</span> <span class=kc>null</span><span class=err>,</span>
+  <span class=err>chainId:</span> <span class=mi>31337</span><span class=err>,</span>
+  <span class=err>wait:</span> <span class=p>[</span><span class=err>Function</span> <span class=err>(anonymous)</span><span class=p>]</span>
+<span class=err>}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>You can also have a look at the termial running <code>yarn hardhat node</code>. Transaction details are logged on the screen:</p>
+<pre tabindex=0><code>  Transaction: 0x8915f9df88e4f2af2eefe05922e026c66723678b7df3de11e525a03c11b391a2
+  From:        0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:          0x70997970c51812dc3a010c7d01b50e0d17dc79c8
+  Value:       100 ETH
+  Gas used:    21000 of 135168
+  Block #1:    0xfae5411b597d02b1c36a6842f14db5aad7ac2b974474f06355bd1b4eb5d438ed
+</code></pre><hr>
+<p>If you find this note useful, please follow my twitter <a href=https://twitter.com/fjun99>@fjun99</a>.</p>
+<hr>
+<br>
+</div>
+</div>
+<div class=container>
+<nav class="flex container suggested">
+<a rel=prev href=/posts/2-day-100-days-of-code-446c/ title="Previous post (older)">
+<span>Previous</span>
+2 Day of 100 Days of Code
+</a>
+<a rel=next href=/posts/02-understanding-blockchain-with-ethersjs-4-tasks-of-wallet-nn5/ title="Next post (newer)">
+<span>Next</span>
+02 Understanding Blockchain with ethersjs 4 Tasks of wallet
+</a>
+</nav>
+</div>
+<div class=container>
+<script src=https://giscus.app/client.js data-repo=WingLim/hugo-tania data-repo-id="MDEwOlJlcG9zaXRvcnkzMTYyNjQzMDc=" data-category=Comments data-category-id=DIC_kwDOEtnPc84B_WKP data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
+<script>function setGiscusTeheme(b){let a=document.querySelector('.giscus iframe');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},'https://giscus.app')}addEventListener('message',a=>{if(a.origin!=='https://giscus.app')return;setGiscusTeheme(document.documentElement.dataset.userColorScheme)}),window.addEventListener('onColorSchemeChange',a=>{setGiscusTeheme(a.detail)})</script>
+</div>
+</main>
+</main>
+<footer class="footer flex">
+<section class=container>
+<nav class=footer-links>
+<a href=/index.xml>RSS</a>
+</nav>
+</section>
+<script defer src=/ts/features.a534d05c446023fa2ae2a638f87cc2443ad8e49f6aaeb4d9f24ed61d53766712.js data-enable-footnotes=true></script>
+</footer>
+</body>
+</html>

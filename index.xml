@@ -1,4 +1,23 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev Arc</title><link>https://dev.portalsindex.xyz/</link><description>Recent content on Dev Arc</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 03:43:37 +0000</lastBuildDate><atom:link href="https://dev.portalsindex.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>001 The Week In Stories Tech Salaries Freebies and Dev Things</title><link>https://dev.portalsindex.xyz/posts/001-the-week-in-stories-tech-salaries-freebies-and-dev-things-2bmi/</link><pubDate>Tue, 01 Feb 2022 03:43:37 +0000</pubDate><author>Aphinya Dechalert</author><guid>https://dev.portalsindex.xyz/posts/001-the-week-in-stories-tech-salaries-freebies-and-dev-things-2bmi/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev Arc</title><link>https://dev.portalsindex.xyz/</link><description>Recent content on Dev Arc</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 03 Feb 2022 06:03:58 +0000</lastBuildDate><atom:link href="https://dev.portalsindex.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>2 amazing web apps for developers</title><link>https://dev.portalsindex.xyz/posts/2-amazing-web-apps-for-developers-33i2/</link><pubDate>Thu, 03 Feb 2022 06:03:58 +0000</pubDate><author>Wulfi</author><guid>https://dev.portalsindex.xyz/posts/2-amazing-web-apps-for-developers-33i2/</guid><description>
+&lt;p>Amazing tools for developers to that might come in handy and increase productivity when working with images.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://www.remove.bg/">removebg&lt;/a>
+If you want to remove the background of any photo just select your image and download the image with the background removed. It&amp;rsquo;s fast and really great.&lt;br>
+&lt;img loading="lazy"
+src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8wquxfm9qne3wi6u9y4.png"
+alt="Image description"
+/>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://pfpmaker.com/">Profile Pic Maker&lt;/a>
+You can use it to generate professional profile pics from any photo. It uses background removal AI, beautifies your photo, and you can also choose from different backgrounds for your image. It generates dozens of profile pic variations automatically.
+&lt;img loading="lazy"
+src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7bukv2ggtr7ibvwzxzlr.png"
+alt="Image description"
+/>&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>001 The Week In Stories Tech Salaries Freebies and Dev Things</title><link>https://dev.portalsindex.xyz/posts/001-the-week-in-stories-tech-salaries-freebies-and-dev-things-2bmi/</link><pubDate>Tue, 01 Feb 2022 03:43:37 +0000</pubDate><author>Aphinya Dechalert</author><guid>https://dev.portalsindex.xyz/posts/001-the-week-in-stories-tech-salaries-freebies-and-dev-things-2bmi/</guid><description>
 &lt;p>Hi all!&lt;/p>
 &lt;p>Welcome to the first edition of &lt;strong>{Tech &amp;amp; Dev}&lt;/strong>.&lt;/p>
 &lt;p>At the beginning of this year, I made a goal for myself to be more consistent with creating things — whether it be through my writing or making mini-apps on the side to learn new things and keep up with the tech.&lt;/p>
@@ -151,4 +170,2076 @@ d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.
 &lt;ul>
 &lt;li>Read it here 👉&lt;a href="https://www.tabnine.com/blog/flutter-vs-react-native/">Flutter vs. React Native&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>And that&amp;rsquo;s it for this week! Stay tuned for next week&amp;rsquo;s tech and dev finds.&lt;/p></description></item></channel></rss>
+&lt;p>And that&amp;rsquo;s it for this week! Stay tuned for next week&amp;rsquo;s tech and dev finds.&lt;/p></description></item><item><title>03 Understanding Blockchain with ethersjs 4 Tasks of interacting with smart contract</title><link>https://dev.portalsindex.xyz/posts/03-understanding-blockchain-with-ethersjs-4-tasks-of-interacting-with-smart-contract-3ef6/</link><pubDate>Mon, 31 Jan 2022 16:28:04 +0000</pubDate><author>fangjun</author><guid>https://dev.portalsindex.xyz/posts/03-understanding-blockchain-with-ethersjs-4-tasks-of-interacting-with-smart-contract-3ef6/</guid><description>
+&lt;p>In third part of this &lt;code>ethers.js&lt;/code> tutorial, we will use &lt;code>ethers.js&lt;/code> to interact with smart contract.&lt;/p>
+&lt;p>What we do here is a little beyond the scope of learning &lt;code>ethers.js&lt;/code>:&lt;/p>
+&lt;ul>
+&lt;li>Write a ERC20 token smart contract with OpenZeppelin&lt;/li>
+&lt;li>Deploy the smart contract to Hardhat local testnet&lt;/li>
+&lt;li>Interact with smart contract using &lt;code>Ethers.js&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="task-1-write-erc20-token-smart-contract">
+&lt;a href="#task-1-write-erc20-token-smart-contract" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1: Write ERC20 token smart contract
+&lt;/h2>
+&lt;p>We will write an ERC20 token smart contract using the verified and popular solidity token library &lt;a href="https://docs.openzeppelin.com/contracts/4.x/">OpenZeppelin&lt;/a>.&lt;/p>
+&lt;h3 id="task-11-install-openzeppelin">
+&lt;a href="#task-11-install-openzeppelin" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.1 Install OpenZeppelin
+&lt;/h3>
+&lt;p>In the hardhat project directory, install OpenZepplin:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn add @openzeppelin/contracts
+&lt;/code>&lt;/pre>&lt;h3 id="task-12-write-smart-contract-in-solidity">
+&lt;a href="#task-12-write-smart-contract-in-solidity" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.2 Write smart contract in Solidity
+&lt;/h3>
+&lt;p>There is a &amp;ldquo;Greeter.sol&amp;rdquo; and related test script &amp;ldquo;test/index.ts&amp;rdquo; and deploy script &amp;ldquo;scripts/deploy.ts&amp;rdquo; in the project. We will leave them there.&lt;/p>
+&lt;p>Add &amp;ldquo;contracts/classtoken.sol&amp;rdquo;&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-solidity" data-lang="solidity">&lt;span class="c1">//SPDX-License-Identifier: Unlicense
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="k">pragma solidity&lt;/span> &lt;span class="o">^&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="kn">import&lt;/span> &lt;span class="s">&amp;#34;@openzeppelin/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="kd">contract&lt;/span> &lt;span class="nc">ClassToken&lt;/span> &lt;span class="k">is&lt;/span> &lt;span class="n">ERC20PresetMinterPauser&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="kd">constructor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">uint256&lt;/span> &lt;span class="n">initialSupply&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">ERC20PresetMinterPauser&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;ClassToken&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;CLT&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="n">_mint&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">msg&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nb">sender&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">initialSupply&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>We create an ERC20 token smart contract which inherits &lt;code>ERC20PresetMinterPauser&lt;/code> of OpenZeppelin. The token name is &amp;ldquo;ClassToken&amp;rdquo;, symbol is &amp;ldquo;CLT&amp;rdquo;.&lt;/p>
+&lt;p>Initial supply of this token will be set in deployment script. Initial supply of CLT will be sent to (mint to) deployer&amp;rsquo;s address.&lt;/p>
+&lt;p>Compile smart contract by running:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat compile
+&lt;/code>&lt;/pre>&lt;h3 id="task-13-write-unit-test-for-smart-contract">
+&lt;a href="#task-13-write-unit-test-for-smart-contract" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.3 Write Unit Test for smart contract
+&lt;/h3>
+&lt;p>Unit test of smart contract is a must. We should cover smart contract with unit test as much as possible. The following script is included here to illustrate that we can&amp;rsquo;t skip this step.&lt;/p>
+&lt;p>Add &amp;ldquo;test/ClassToken.ts&amp;rdquo;:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">expect&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s2">&amp;#34;chai&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">ethers&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s2">&amp;#34;hardhat&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="nx">describe&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;ClassToken&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kd">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">it&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Should have the correct initial supply&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kr">async&lt;/span> &lt;span class="kd">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">initialSupply&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;10000&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">ClassToken&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getContractFactory&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;ClassToken&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">token&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ClassToken&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">deploy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">initialSupply&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">deployed&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;span class="nx">expect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">totalSupply&lt;/span>&lt;span class="p">()).&lt;/span>&lt;span class="nx">to&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">equal&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">initialSupply&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">});&lt;/span>
+&lt;span class="p">});&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Run test:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat test
+&lt;/code>&lt;/pre>&lt;p>Unit test passed. We will try to deploy it to a local testnet.&lt;/p>
+&lt;hr>
+&lt;h2 id="task-2-deploy-smart-contract-to-local-testnet">
+&lt;a href="#task-2-deploy-smart-contract-to-local-testnet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2: Deploy smart contract to local testnet
+&lt;/h2>
+&lt;p>We will deploy smart contract both to in-process and stand-alone local testnet to display usage and difference between these two.&lt;/p>
+&lt;h3 id="task-21-write-deployment-script">
+&lt;a href="#task-21-write-deployment-script" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.1: Write deployment script
+&lt;/h3>
+&lt;p>Add &amp;ldquo;scripts/deploy_classtoken.ts&amp;rdquo;:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">ethers&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s2">&amp;#34;hardhat&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="kr">async&lt;/span> &lt;span class="kd">function&lt;/span> &lt;span class="nx">main&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">initialSupply&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;10000&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">ClassToken&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getContractFactory&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;ClassToken&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">token&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ClassToken&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">deploy&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">initialSupply&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">deployed&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;ClassToken deployed to:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="nx">main&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="k">catch&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">error&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">error&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">error&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="nx">process&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">exitCode&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="p">});&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The &lt;code>intialSupply&lt;/code> is set to be 10000.0 CLS.&lt;/p>
+&lt;h3 id="22-deploy-on-in-process-local-testnet">
+&lt;a href="#22-deploy-on-in-process-local-testnet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+2.2 deploy on in-process local testnet.
+&lt;/h3>
+&lt;pre tabindex="0">&lt;code>yarn hardhat run scripts/deploy_classtoken.ts
+//ClassToken deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+&lt;/code>&lt;/pre>&lt;p>If you run the script again, you will find the smart contract is always deployed to the same address as in-process is new every time.&lt;/p>
+&lt;h3 id="23-run-a-stand-alone-local-testnet">
+&lt;a href="#23-run-a-stand-alone-local-testnet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+2.3 Run a stand-alone local testnet
+&lt;/h3>
+&lt;p>Run a stand-alone local testnet at another terminal:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat node
+&lt;/code>&lt;/pre>&lt;h3 id="24-deploy-classtoken-to-stand-alone-local-testnet">
+&lt;a href="#24-deploy-classtoken-to-stand-alone-local-testnet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+2.4 Deploy ClassToken to stand-alone local testnet
+&lt;/h3>
+&lt;p>Deploy smart contract:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat run scripts/deploy_classtoken.ts --network localhost
+//ClassToken deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+&lt;/code>&lt;/pre>&lt;p>If you run the script again, you will find the smart contract is deployed to a new address:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat run scripts/deploy_classtoken.ts --network localhost
+//ClassToken deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+&lt;/code>&lt;/pre>&lt;p>We will use the smart contract instance at: &lt;code>0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="task-3-interact-with-smart-contract-from-console">
+&lt;a href="#task-3-interact-with-smart-contract-from-console" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3: Interact with smart contract from console
+&lt;/h2>
+&lt;h3 id="task-31-get-smart-contract-instance">
+&lt;a href="#task-31-get-smart-contract-instance" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.1 Get smart contract instance
+&lt;/h3>
+&lt;p>Run console connecting to stand-alone local testnet:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat console --network localhost
+&lt;/code>&lt;/pre>&lt;p>Get Smart contract:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">const&lt;/span> &lt;span class="nx">address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">token&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getContractAt&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;ClassToken&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">address&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-32-get-to-know-properties-smart-contract">
+&lt;a href="#task-32-get-to-know-properties-smart-contract" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.2 Get to know properties smart contract
+&lt;/h3>
+&lt;p>Docs can be found at: &lt;a href="https://docs.ethers.io/v5/api/contract/contract/#Contract--properties">https://docs.ethers.io/v5/api/contract/contract/#Contract--properties&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">interaface&lt;/span>
+&lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>
+&lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">signer&lt;/span>
+&lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-33-get-data-from-smart-contract">
+&lt;a href="#task-33-get-data-from-smart-contract" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.3 Get data from smart contract
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">parseEther&lt;/span> &lt;span class="o">=&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseEther&lt;/span>
+&lt;span class="nx">formatEther&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">totalSupply&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//10000.0
+&lt;/span>&lt;span class="c1">&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">symbol&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="c1">//CLT
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">name&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="c1">//ClassToken
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-34-token-balance-of-deployer">
+&lt;a href="#task-34-token-balance-of-deployer" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.4 Token balance of deployer
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">deployer&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266&amp;#39;&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">balanceOf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">deployer&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//10000.0
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-35-transfer-token-from-deployer-to-other">
+&lt;a href="#task-35-transfer-token-from-deployer-to-other" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.5 Transfer Token from deployer to other
+&lt;/h3>
+&lt;p>We will transfer CLS token by calling &lt;code>transfer()&lt;/code> of ERC20 standard. You can also send ERC20 token using MeteMask in two steps: 1) add token using token address(contract address), 2) send some amount of it to other&amp;rsquo;s address.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">to_address&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">transfer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">to_address&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="nx">parseEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;1000&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">balanceOf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">to_address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//1000.0
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now, only user with the correct private key of the address can use this token in address &lt;code>0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;h2 id="task-4-connect-wallet-and-transfer-token">
+&lt;a href="#task-4-connect-wallet-and-transfer-token" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4: Connect wallet and transfer token
+&lt;/h2>
+&lt;p>Note: you can refer to the second part of this tutorial &amp;ldquo;Understanding Blockchain with &lt;code>ethers.js&lt;/code>: 4 Tasks of wallet&amp;rdquo; to know more about wallet usage.&lt;/p>
+&lt;h3 id="task-41-create-wallet">
+&lt;a href="#task-41-create-wallet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.1 Create wallet
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="c1">//account not in hardhat default
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="nx">privateKey&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&amp;#39;&lt;/span>
+&lt;span class="nx">wallet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Wallet&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">privateKey&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-42-send-ethers-from-account-0-for-gas-fee-usage">
+&lt;a href="#task-42-send-ethers-from-account-0-for-gas-fee-usage" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.2 Send ethers from account 0 for gas fee usage
+&lt;/h3>
+&lt;p>If adress &lt;code>0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&lt;/code> has no test ETH, it will not have the ability to send transactions.&lt;/p>
+&lt;p>Do remember to send some ETH to this address for gas usage. If it has test ETH, you can skip this step Task 4.2.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">signer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSigner&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">send_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAddress&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">to_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="nx">nonce&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getTransactionCount&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_price&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getGasPrice&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_limit&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hexlify&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">21000&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseUnits&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;1.0&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">tx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">from&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">send_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">to&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">to_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">value&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">nonce&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">nonce&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasLimit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_limit&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasPrice&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_price&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">sendTransaction&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">tx&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">=&amp;gt;&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;span class="c1">//&amp;#39;1.0&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-44-connect-wallet-to-provider">
+&lt;a href="#task-44-connect-wallet-to-provider" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.4 Connect wallet to provider
+&lt;/h3>
+&lt;p>Connect wallet to provider&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">walletsigner&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">walletsigner&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//still be the one
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-45-set-walletsigner-as-signer-of-classtoken">
+&lt;a href="#task-45-set-walletsigner-as-signer-of-classtoken" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.5 Set walletsigner as signer of ClassToken
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">newtokeninstance&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">walletsigner&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">newtokeninstance&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-46-send-classtoken-from-this-address">
+&lt;a href="#task-46-send-classtoken-from-this-address" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.6 send ClassToken from this address
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">deployer&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266&amp;#39;&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">newtokeninstance&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">transfer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">deployer&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="nx">parseEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;66&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Do read the returned receipt of this contract method call.&lt;/p>
+&lt;p>Let&amp;rsquo;s check whether we get the correct result:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">balanceOf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">deployer&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//9066.0
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="kr">await&lt;/span> &lt;span class="nx">token&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">balanceOf&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">to_address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//934.0
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>After going through 12 tasks in this tutorial, you can begin to use &lt;code>Ethers.js&lt;/code> in Web3 development. &lt;code>Ethers.js&lt;/code>, as well as &lt;code>web3.js&lt;/code>, is very important as it stands at the overlapped space between blockchain and web App.&lt;/p>
+&lt;hr>
+&lt;p>If you find this note useful, please follow my twitter &lt;a href="https://twitter.com/fjun99">@fjun99&lt;/a>.&lt;/p>
+&lt;hr></description></item><item><title>02 Understanding Blockchain with ethersjs 4 Tasks of wallet</title><link>https://dev.portalsindex.xyz/posts/02-understanding-blockchain-with-ethersjs-4-tasks-of-wallet-nn5/</link><pubDate>Mon, 31 Jan 2022 16:27:00 +0000</pubDate><author>fangjun</author><guid>https://dev.portalsindex.xyz/posts/02-understanding-blockchain-with-ethersjs-4-tasks-of-wallet-nn5/</guid><description>
+&lt;p>&lt;code>Ethers.js&lt;/code> provides functions to deal with Ethereum blockchain wallet. You can find &lt;code>Ethers.js&lt;/code> documents about Wallet &lt;a href="https://docs.ethers.io/v5/api/signer/#Wallet">here&lt;/a>.&lt;/p>
+&lt;p>Get a better understanding with the following tasks:&lt;/p>
+&lt;hr>
+&lt;h2 id="task-1-create-wallet-from-mnemonic-and-privatekey">
+&lt;a href="#task-1-create-wallet-from-mnemonic-and-privatekey" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1: Create wallet from mnemonic and privateKey
+&lt;/h2>
+&lt;h4 id="task-11-create-wallet-from-mnemonic">
+&lt;a href="#task-11-create-wallet-from-mnemonic" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.1 Create wallet from mnemonic
+&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">mnemonic&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;myth like bonus scare over problem client lizard pioneer submit female collect&amp;#39;&lt;/span>
+&lt;span class="c1">//check whether it is valid mnemonic
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">isValidMnemonic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">mnemonic&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">wallet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">fromMnemonic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">mnemonic&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Note: You should never write your mnemonic and privateKey in your script like this, it&amp;rsquo;s dangerous.&lt;/p>
+&lt;p>The mnemonic and privateKey used here are the default ones used in &lt;code>Ganache-cli&lt;/code> and are public.&lt;/p>
+&lt;h3 id="task-12-address-public-key-and-private-key">
+&lt;a href="#task-12-address-public-key-and-private-key" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.2 Address, Public key and Private key
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;
+&lt;/span>&lt;span class="c1">&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">privateKey&lt;/span>
+&lt;span class="s1">&amp;#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&amp;#39;&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">publicKey&lt;/span>
+&lt;span class="s1">&amp;#39;0x04e68acfc0253a10620dff706b0a1b1f1f5833ea3beb3bde2250d5f271f3563606672ebc45e0b7ea2e816ecb70ca03137b1c9476eec63d4632e990020b7b6fba39&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This is the address with path &amp;ldquo;m/44'/60'/0'/0/0&amp;rdquo;.&lt;/p>
+&lt;p>We can also get mnemonic of wallet if it is created from mnemonic.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">mnemonic&lt;/span>
+&lt;span class="p">{&lt;/span>
+&lt;span class="nx">phrase&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;myth like bonus scare over problem client lizard pioneer submit female collect&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">path&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s2">&amp;#34;m/44&amp;#39;/60&amp;#39;/0&amp;#39;/0/0&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">locale&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;en&amp;#39;&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-13-create-wallet-from-privatekey">
+&lt;a href="#task-13-create-wallet-from-privatekey" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.3 Create wallet from privateKey
+&lt;/h3>
+&lt;p>We can also create wallet from privateKey. Wallet created in this way has no mnemonic property.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">privateKey&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&amp;#39;&lt;/span>
+&lt;span class="nx">wallet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Wallet&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">privateKey&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">mnemonic&lt;/span>
+&lt;span class="c1">//null
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="task-2-create-20-addresses-with-mnemonic">
+&lt;a href="#task-2-create-20-addresses-with-mnemonic" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2: create 20 addresses with mnemonic
+&lt;/h2>
+&lt;p>We will use &lt;code>Ethers.js&lt;/code> utility for &lt;a href="https://docs.ethers.io/v5/api/utils/hdnode/#hdnodes">HD Wallet (HDNode)&lt;/a> to do this.&lt;/p>
+&lt;h3 id="task-21-create-hdnode-instance-from-mnemonic">
+&lt;a href="#task-21-create-hdnode-instance-from-mnemonic" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.1 Create HDNode instance from mnemonic
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">mnemonic&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;myth like bonus scare over problem client lizard pioneer submit female collect&amp;#39;&lt;/span>
+&lt;span class="nx">hdnode&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">HDNode&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">fromMnemonic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">mnemonic&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-22-get-20-addresses">
+&lt;a href="#task-22-get-20-addresses" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.2 Get 20 addresses
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">basepathstr&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;m/44&amp;#39;/60&amp;#39;/0&amp;#39;/0/&amp;#34;&lt;/span>
+&lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">i&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="nx">i&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="mi">20&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="nx">i&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">){&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">hdnode&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">derivePath&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">basepathstr&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="nx">i&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">toString&lt;/span>&lt;span class="p">()).&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">)}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>result:&lt;/p>
+&lt;pre tabindex="0">&lt;code>0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1
+0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0
+0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b
+......
+&lt;/code>&lt;/pre>&lt;p>The first is with path: &amp;ldquo;m/44'/60'/0'/0/0&amp;rdquo;
+The second is with path: &amp;ldquo;m/44'/60'/0'/0/1&amp;rdquo;
+The third is with path: &amp;ldquo;m/44'/60'/0'/0/2&amp;rdquo;&lt;/p>
+&lt;h3 id="task-23-get-address-with-path">
+&lt;a href="#task-23-get-address-with-path" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.3 Get address with path
+&lt;/h3>
+&lt;p>We can also get wallet address with path.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">mnemonic&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;myth like bonus scare over problem client lizard pioneer submit female collect&amp;#39;&lt;/span>
+&lt;span class="nx">wallet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">fromMnemonic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">mnemonic&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="s2">&amp;#34;m/44&amp;#39;/60&amp;#39;/0&amp;#39;/0/1&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="task-3-sign-message-with-wallet">
+&lt;a href="#task-3-sign-message-with-wallet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3: Sign message with wallet
+&lt;/h2>
+&lt;h3 id="task-31-prepare-wallet-as-a-signer">
+&lt;a href="#task-31-prepare-wallet-as-a-signer" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.1: Prepare wallet as a signer
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">mnemonic&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;myth like bonus scare over problem client lizard pioneer submit female collect&amp;#39;&lt;/span>
+&lt;span class="nx">wallet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">fromMnemonic&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">mnemonic&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="s2">&amp;#34;m/44&amp;#39;/60&amp;#39;/0&amp;#39;/0/1&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-32-sign-message">
+&lt;a href="#task-32-sign-message" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.2: sign message
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">message&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;solidity-class&amp;#34;&lt;/span>
+&lt;span class="nx">sig&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">signMessage&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">message&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="c1">//&amp;#39;0x8637dce5aeb0b9bd9ee8ce909252806ede88eebc3789436f8f569dd1e45f3f2b47e6633d4119c26917e4b2e08c422028df2209a8ca401f77d4aab9f24b6a40831b&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The signature is result to signing: &amp;ldquo;\x19Ethereum Signed Message:\n&amp;rdquo; + message.length + message. &lt;a href="https://docs.ethers.io/v5/api/signer/#Signer-signMessage">Ethers.js docs&lt;/a> explains:&lt;/p>
+&lt;blockquote>
+&lt;p>A signed message is prefixd with &amp;ldquo;\x19Ethereum Signed Message:\n&amp;rdquo; and the length of the message, using the hashMessage method, so that it is EIP-191 compliant. If recovering the address in Solidity, this prefix will be required to create a matching hash.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="task-33-verify-message">
+&lt;a href="#task-33-verify-message" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.3: verify message
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">verifyMessage&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">message&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="nx">sig&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="c1">//&amp;#39;0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-34-sign-message-hash">
+&lt;a href="#task-34-sign-message-hash" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.4: sign message hash
+&lt;/h3>
+&lt;p>We can hash the message by ourselves and sign messagehash instead. We got the same signature.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">messageHash&lt;/span>&lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hashMessage&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">message&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">sig&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">signMessage&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">messageHash&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="c1">//&amp;#39;0xfc40fcec036bd4501ce3bfaf991d561553db6d3601702f8abed9f733eab31a5246163711f71ad48b002ddf83c7cd93656047759ab8e2ff4420c59d5845680ca11b&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-35-understanding-signature">
+&lt;a href="#task-35-understanding-signature" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.5 Understanding signature
+&lt;/h3>
+&lt;p>Get the r,s,v of the signature which is r+s+v.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">const&lt;/span> &lt;span class="nx">r&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">sig&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">66&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;0x&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">sig&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">66&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">130&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="kr">const&lt;/span> &lt;span class="nx">v&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;0x&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="nx">sig&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">slice&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">130&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">132&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="task-4-send-transaction-from-wallet">
+&lt;a href="#task-4-send-transaction-from-wallet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4: Send transaction from wallet
+&lt;/h2>
+&lt;h3 id="task-41-create-wallet">
+&lt;a href="#task-41-create-wallet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.1 Create wallet
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="c1">// get wallet account not in hardhat default
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="nx">privateKey&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d&amp;#39;&lt;/span>
+&lt;span class="nx">wallet&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Wallet&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">privateKey&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;
+&lt;/span>&lt;span class="c1">&lt;/span>
+&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>
+&lt;span class="c1">//null
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-42-send-ethers-from-account-0-to-test-account">
+&lt;a href="#task-42-send-ethers-from-account-0-to-test-account" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.2 send ethers from account 0 to test account
+&lt;/h3>
+&lt;p>You can send Test Ethers to test wallet address for gas fee usage using MetaMask.&lt;/p>
+&lt;p>Or you can do it in the console as we do in previous part of this tutorial:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">signer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSigner&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">send_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAddress&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">to_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="nx">nonce&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getTransactionCount&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_price&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getGasPrice&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_limit&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hexlify&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">21000&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseUnits&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;100.0&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">tx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">from&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">send_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">to&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">to_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">value&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">nonce&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">nonce&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasLimit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_limit&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasPrice&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_price&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">sendTransaction&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">tx&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">=&amp;gt;&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;span class="c1">//&amp;#39;100.0&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-43-try-to-send-from-wallet-wrongly">
+&lt;a href="#task-43-try-to-send-from-wallet-wrongly" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.3 Try to send from wallet wrongly
+&lt;/h3>
+&lt;p>Let us try to call sendTransaction from signer which is different with the &lt;code>send_address&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">send_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="nx">to_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAddress&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">nonce&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getTransactionCount&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_price&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getGasPrice&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_limit&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hexlify&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">21000&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseUnits&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;1.0&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">tx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">from&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">send_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">to&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">to_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">value&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">nonce&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">nonce&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasLimit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_limit&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasPrice&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_price&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">sendTransaction&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">tx&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>We got an Error: &amp;ldquo;Error: from address mismatch&amp;rdquo;.&lt;/p>
+&lt;h3 id="task-44-send-from-wallet---connect-wallet-to-get-signer">
+&lt;a href="#task-44-send-from-wallet---connect-wallet-to-get-signer" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.4 Send from wallet - connect wallet to get signer
+&lt;/h3>
+&lt;p>First, connect wallet to provider. The return of &lt;code>connect()&lt;/code> is the wallet instance which can be a signer.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">walletsigner&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">walletsigner&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="c1">//&amp;#39;0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-44-send-eth-using-wallet-as-a-signer">
+&lt;a href="#task-44-send-eth-using-wallet-as-a-signer" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.4 Send ETH using wallet as a signer
+&lt;/h3>
+&lt;p>Second, &lt;code>sendTransaction&lt;/code> with walletsigner:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">to_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAddress&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">nonce&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">walletsigner&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getTransactionCount&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_price&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getGasPrice&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_limit&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hexlify&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">21000&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseUnits&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;1.0&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">tx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">from&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">send_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">to&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">to_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">value&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">nonce&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">nonce&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasLimit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_limit&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasPrice&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_price&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">walletsigner&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">sendTransaction&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">tx&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">wallet&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">=&amp;gt;&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">result&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;span class="c1">//&amp;#39;98.999968220292873&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;p>If you find this note useful, please follow my twitter &lt;a href="https://twitter.com/fjun99">@fjun99&lt;/a>.&lt;/p>
+&lt;hr></description></item><item><title>01 Understanding Blockchain with ethersjs 4 Tasks of Basics and Transfer</title><link>https://dev.portalsindex.xyz/posts/01-understanding-blockchain-with-ethersjs-4-tasks-of-basics-and-transfer-5d17/</link><pubDate>Mon, 31 Jan 2022 16:23:45 +0000</pubDate><author>fangjun</author><guid>https://dev.portalsindex.xyz/posts/01-understanding-blockchain-with-ethersjs-4-tasks-of-basics-and-transfer-5d17/</guid><description>
+&lt;p>As a web3 developer, you can play with Ethereum blockchain using &lt;code>Ethers.js&lt;/code> to get a deeper understanding. This 3-parts tutorial lists 12 tasks for you.&lt;/p>
+&lt;p>&lt;code>Ethers.js&lt;/code> is a Javascript API for Ethereum blockchain which can work with Mainnet, testnet such as Ropsten, Rinkeby, local testnet, Layer 2 and sidechains.&lt;/p>
+&lt;p>We will use Hardhat Ethereum development environment to set up a playground as it can provide all the components we need:&lt;/p>
+&lt;ul>
+&lt;li>local testnet: Hardhat Network based on &lt;code>@ethereumjs/vm&lt;/code>&lt;/li>
+&lt;li>interactive console: Hardhat console&lt;/li>
+&lt;li>solidity development tools: Hardhat&lt;/li>
+&lt;li>ethers.js: Ethereum Javascript API&lt;/li>
+&lt;/ul>
+&lt;p>Hardhat brings in &lt;code>ethers.js&lt;/code> with plugin &lt;code>hardhat-ethers&lt;/code>.&lt;/p>
+&lt;p>Ethers.js documents: &lt;a href="https://docs.ethers.io/v5/">https://docs.ethers.io/v5/&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="task-1-setup-ethersjs-playground-with-hardhat">
+&lt;a href="#task-1-setup-ethersjs-playground-with-hardhat" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1: Setup ethers.js playground with Hardhat
+&lt;/h2>
+&lt;p>You need to have &lt;code>node.js&lt;/code> and &lt;code>yarn&lt;/code> installed in your computer.&lt;/p>
+&lt;h3 id="task-11-install-hardhat">
+&lt;a href="#task-11-install-hardhat" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.1 Install Hardhat
+&lt;/h3>
+&lt;p>Run in command line:&lt;/p>
+&lt;pre tabindex="0">&lt;code>mkdir playeth &amp;amp;&amp;amp; cd playeth
+yarn add hardhat
+&lt;/code>&lt;/pre>&lt;h3 id="task-12-init-hardhat-project">
+&lt;a href="#task-12-init-hardhat-project" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.2 Init Hardhat project
+&lt;/h3>
+&lt;p>You can init a Hardhat project by running:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat
+&lt;/code>&lt;/pre>&lt;p>Choose Option &amp;ldquo;Create an advanced sample project that uses TypeScript&amp;rdquo;. A sample hardhat project will be created.&lt;/p>
+&lt;h3 id="task-13-run-a-stand-alone-local-testnet">
+&lt;a href="#task-13-run-a-stand-alone-local-testnet" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.3 Run a stand-alone local testnet
+&lt;/h3>
+&lt;p>In another terminal, run a stand-alone local testnet &amp;ldquo;Hardhat Network&amp;rdquo; by running:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat node
+&lt;/code>&lt;/pre>&lt;p>More about in-process and stand-alone mode of Hardhat Network can be found &lt;a href="https://hardhat.org/hardhat-network/#how-does-it-work">here&lt;/a>.&lt;/p>
+&lt;h3 id="task-14-enter-hardhat-console">
+&lt;a href="#task-14-enter-hardhat-console" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 1.4 Enter Hardhat console
+&lt;/h3>
+&lt;p>Run Hardhat console connecting to blockchain testnet localhost:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat console --network localhost
+&lt;/code>&lt;/pre>&lt;p>Check &lt;code>ethers.js&lt;/code> version and get the current blocknumber in console:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">version&lt;/span>
+&lt;span class="c1">//&amp;#39;ethers/5.5.3&amp;#39;
+&lt;/span>&lt;span class="c1">&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBlockNumber&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="c1">//0
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now, you have an ethers.js playground with an interactive console and a local testnet.&lt;/p>
+&lt;hr>
+&lt;h2 id="task-2-have-a-look-at-blockchain">
+&lt;a href="#task-2-have-a-look-at-blockchain" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2: Have a look at blockchain
+&lt;/h2>
+&lt;p>Currently Hardhat console is connected to a local blockchain testnet at http://localhost:8545. Let&amp;rsquo;s have a look at the blockchain with &lt;code>Ethers.js&lt;/code>.&lt;/p>
+&lt;p>&lt;code>Ethers.js&lt;/code> provide &amp;ldquo;Provider&amp;rdquo; and &amp;ldquo;Signer&amp;rdquo; for interaction with blockchain. Its document explains:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>A &lt;a href="https://docs.ethers.io/v5/api/providers/provider/">Provider&lt;/a> in ethers is a read-only abstraction to access the blockchain data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A &lt;a href="https://docs.ethers.io/v5/api/signer/">Signer&lt;/a> in ethers is an abstraction of an Ethereum Account, which can be used to sign messages and transactions and send signed transactions to the Ethereum Network to execute state changing operations.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="task-21-check-connection">
+&lt;a href="#task-21-check-connection" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.1 check connection
+&lt;/h3>
+&lt;p>We can access provider &lt;code>ether.provider&lt;/code>,a ethers.js wrapped Ethereum RPC provider.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">const&lt;/span> &lt;span class="nx">provider&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>
+&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">connection&lt;/span>
+&lt;span class="c1">// { url: &amp;#39;http://localhost:8545&amp;#39; }
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-22-check-network-of-provider">
+&lt;a href="#task-22-check-network-of-provider" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.2 check network of provider
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">await&lt;/span> &lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getNetwork&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="c1">//{ chainId: 31337, name: &amp;#39;unknown&amp;#39; }
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Ethereum network with chainId 31337 is local testnet at &lt;code>127.0.0.1:8545&lt;/code>.&lt;/p>
+&lt;h3 id="task-23-get-signer">
+&lt;a href="#task-23-get-signer" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.3 get signer
+&lt;/h3>
+&lt;p>The big diffence between &lt;code>ethers.js&lt;/code> and &lt;code>web3.js&lt;/code> is that it seperate signer from provider. Provider can only read data from blockchain while signer can send transactions to change data on blockchain. Ethers.js docs explain signer:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">const&lt;/span> &lt;span class="nx">signer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSigner&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="c1">//this is a JsonRpcSigner
+&lt;/span>&lt;span class="c1">&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAddress&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="c1">//&amp;#39;0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-24-get-all-the-accounts-with-hardhat-console">
+&lt;a href="#task-24-get-all-the-accounts-with-hardhat-console" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 2.4 get all the accounts with Hardhat console
+&lt;/h3>
+&lt;p>Hardhat console is running with 20 test accounts.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">accounts&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSigners&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;span class="nx">accounts&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">length&lt;/span>
+&lt;span class="c1">//20
+&lt;/span>&lt;span class="c1">&lt;/span>
+&lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kr">const&lt;/span> &lt;span class="nx">account&lt;/span> &lt;span class="k">of&lt;/span> &lt;span class="nx">accounts&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">account&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">address&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">Result&lt;/span>&lt;span class="o">:&lt;/span>
+&lt;span class="mh">0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&lt;/span>
+&lt;span class="mh">0x70997970C51812dc3A010C7d01b50e0d17dc79C8&lt;/span>
+&lt;span class="mh">0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC&lt;/span>
+&lt;span class="mh">0x90F79bf6EB2c4f870365E785982E1f101E93b906&lt;/span>
+&lt;span class="p">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>There is a sample hardhat plugin &lt;code>accounts&lt;/code>, you can run it in command line:&lt;/p>
+&lt;pre tabindex="0">&lt;code>yarn hardhat accounts
+&lt;/code>&lt;/pre>&lt;hr>
+&lt;h2 id="task-3-get-eth-balance-of-an-address">
+&lt;a href="#task-3-get-eth-balance-of-an-address" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3: Get ETH balance of an address
+&lt;/h2>
+&lt;p>We can use &lt;code>getBalance()&lt;/code> to get ETH balance of an address (&lt;a href="https://docs.ethers.io/v5/api/providers/provider/#Provider-getBalance">reference link&lt;/a>). Since we only need to read data from blockchain, we will use &lt;code>provider&lt;/code> instead of &lt;code>signer&lt;/code>.&lt;/p>
+&lt;h3 id="task-31-getbalance">
+&lt;a href="#task-31-getbalance" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.1 getBalance
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">firstaddress&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">accounts&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">].&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="nx">balance&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">firstaddress&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="c1">//BigNumber { value: &amp;#34;10000000000000000000000&amp;#34; }
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The return result is BigNumber, which means 10000.0 ethers. Every accountshave 10000.0 test ethers in Hardhat local testnet.&lt;/p>
+&lt;h3 id="task-32-formatether">
+&lt;a href="#task-32-formatether" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.2 formatEther
+&lt;/h3>
+&lt;p>We can use ethers.js utilities for &lt;a href="https://docs.ethers.io/v5/api/utils/display-logic/">Display Logic and Input&lt;/a> to display it in a friendly manner.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">balance&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="c1">//&amp;#39;10000.0&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-33-parseether">
+&lt;a href="#task-33-parseether" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 3.3 parseEther
+&lt;/h3>
+&lt;p>We can also transfer from string to Bignumber easily.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;0.5&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;span class="c1">//BigNumber { value: &amp;#34;500000000000000000&amp;#34; }
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="task-4-send-eth-from-one-address-to-another">
+&lt;a href="#task-4-send-eth-from-one-address-to-another" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4: Send ETH from one address to another
+&lt;/h2>
+&lt;h3 id="task-41-send-eth-using-metamask">
+&lt;a href="#task-41-send-eth-using-metamask" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.1 Send ETH using MetaMask
+&lt;/h3>
+&lt;p>You can use MetaMask to transfer test ethers between accounts:&lt;/p>
+&lt;ol>
+&lt;li>Switch network to Localhost8545 in MetaMask&lt;/li>
+&lt;li>Import account #0 with privateKey&lt;/li>
+&lt;li>Transfer 100 test ETH from Account #0 to Account #1&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">Accounts&lt;/span> &lt;span class="err">#&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&lt;/span>
+&lt;span class="nx">privateKey&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80&lt;/span>
+&lt;span class="nx">Accounts&lt;/span> &lt;span class="err">#&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="mh">0x70997970C51812dc3A010C7d01b50e0d17dc79C8&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Address #00 and privateKey to add account to MetaMask. Address #1 is the receiver.&lt;/p>
+&lt;p>Note: Remember to change chainId from &amp;ldquo;1337&amp;rdquo; to &amp;ldquo;31337&amp;rdquo; in MetaMask network setting.&lt;/p>
+&lt;p>You can check the results in console:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">provider&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>
+&lt;span class="nx">acccount_1&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;0x70997970C51812dc3A010C7d01b50e0d17dc79C8&amp;#39;&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">acccount_1&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//&amp;#39;10100.0&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Send ETH from one address to another can be done by call &lt;code>sendTransaction&lt;/code> using Ethers.js. Related Ether.js docs is &lt;a href="https://docs.ethers.io/v5/api/providers/provider/#Provider-sendTransaction">here&lt;/a>.&lt;/p>
+&lt;p>Detailed explanation of Transaction can be found in Andreas M. Antonopoulos&amp;rsquo;s book &lt;a href="https://github.com/ethereumbook/ethereumbook/blob/develop/06transactions.asciidoc">Mastering Etereum Chapter 6 Transactions&lt;/a>.&lt;/p>
+&lt;h3 id="task-42-prepare-for-sendtransaction">
+&lt;a href="#task-42-prepare-for-sendtransaction" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.2 Prepare for sendTransaction
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">signer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSigner&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">send_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getAddress&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">accounts&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getSigners&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;span class="nx">to_address&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">accounts&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">].&lt;/span>&lt;span class="nx">address&lt;/span>
+&lt;span class="nx">nonce&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getTransactionCount&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_price&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getGasPrice&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;span class="nx">gas_limit&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">hexlify&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">21000&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;span class="nx">value&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">parseUnits&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;100.0&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-43-format-transaction">
+&lt;a href="#task-43-format-transaction" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.3 Format transaction
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">tx&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;span class="nx">from&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">send_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">to&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">to_address&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">value&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">value&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">nonce&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">nonce&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasLimit&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_limit&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="nx">gasPrice&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">gas_price&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;span class="p">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-44-call-sendtransaction">
+&lt;a href="#task-44-call-sendtransaction" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.4 Call &amp;lt;code&amp;gt;sendTransaction&amp;lt;/code&amp;gt;
+&lt;/h3>
+&lt;p>Send transaction:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="kr">await&lt;/span> &lt;span class="nx">signer&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">sendTransaction&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">tx&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="task-45-check-results">
+&lt;a href="#task-45-check-results" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Task 4.5 Check results
+&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="nx">provider&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">provider&lt;/span>
+&lt;span class="kr">await&lt;/span> &lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">to_address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//&amp;#39;10200.0&amp;#39;
+&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="kr">await&lt;/span> &lt;span class="nx">provider&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getBalance&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">send_address&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">then&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)=&amp;gt;&lt;/span>&lt;span class="nx">console&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">log&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">ethers&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">utils&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">formatEther&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">r&lt;/span>&lt;span class="p">)))&lt;/span>
+&lt;span class="c1">//&amp;#39;9799.999923543659375&amp;#39;
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The balance of send_address is a little less than 9800.0 because it paid some ether as gas fee for the transactions.&lt;/p>
+&lt;p>When &lt;code>sendTransaction&lt;/code> called, it returns receipt of the transaction executed on the blockchain.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="p">{&lt;/span>
+&lt;span class="err">hash:&lt;/span> &lt;span class="err">&amp;#39;0x8915f9df88e4f2af2eefe05922e026c66723678b7df3de11e525a03c11b391a2&amp;#39;,&lt;/span>
+&lt;span class="err">type:&lt;/span> &lt;span class="err">0,&lt;/span>
+&lt;span class="err">accessList:&lt;/span> &lt;span class="err">null,&lt;/span>
+&lt;span class="err">blockHash:&lt;/span> &lt;span class="err">&amp;#39;0xfae5411b597d02b1c36a6842f14db5aad7ac2b974474f06355bd1b4eb5d438ed&amp;#39;,&lt;/span>
+&lt;span class="err">blockNumber:&lt;/span> &lt;span class="err">1,&lt;/span>
+&lt;span class="err">transactionIndex:&lt;/span> &lt;span class="err">0,&lt;/span>
+&lt;span class="err">confirmations:&lt;/span> &lt;span class="err">1,&lt;/span>
+&lt;span class="err">from:&lt;/span> &lt;span class="err">&amp;#39;0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266&amp;#39;,&lt;/span>
+&lt;span class="err">gasPrice:&lt;/span> &lt;span class="err">BigNumber&lt;/span> &lt;span class="err">{&lt;/span> &lt;span class="err">value:&lt;/span> &lt;span class="nt">&amp;#34;1875000000&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">gasLimit:&lt;/span> &lt;span class="err">BigNumber&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="err">value:&lt;/span> &lt;span class="nt">&amp;#34;135168&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">to:&lt;/span> &lt;span class="err">&amp;#39;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="err">x&lt;/span>&lt;span class="mi">70997970&lt;/span>&lt;span class="err">C&lt;/span>&lt;span class="mi">51812&lt;/span>&lt;span class="err">dc&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="err">A&lt;/span>&lt;span class="mi">010&lt;/span>&lt;span class="err">C&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="err">d&lt;/span>&lt;span class="mi">01&lt;/span>&lt;span class="err">b&lt;/span>&lt;span class="mf">50e0&lt;/span>&lt;span class="err">d&lt;/span>&lt;span class="mi">17&lt;/span>&lt;span class="err">dc&lt;/span>&lt;span class="mi">79&lt;/span>&lt;span class="err">C&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="err">&amp;#39;,&lt;/span>
+&lt;span class="err">value:&lt;/span> &lt;span class="err">BigNumber&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="err">value:&lt;/span> &lt;span class="nt">&amp;#34;100000000000000000000&amp;#34;&lt;/span> &lt;span class="p">}&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">nonce:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">data:&lt;/span> &lt;span class="err">&amp;#39;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="err">x&amp;#39;,&lt;/span>
+&lt;span class="err">r:&lt;/span> &lt;span class="err">&amp;#39;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="err">x&lt;/span>&lt;span class="mi">116&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mf">4e2&lt;/span>&lt;span class="err">acba&lt;/span>&lt;span class="mi">174&lt;/span>&lt;span class="err">b&lt;/span>&lt;span class="mi">04&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="err">f&lt;/span>&lt;span class="mi">44248&lt;/span>&lt;span class="err">fef&lt;/span>&lt;span class="mi">0170012&lt;/span>&lt;span class="err">d&lt;/span>&lt;span class="mi">956&lt;/span>&lt;span class="err">d&lt;/span>&lt;span class="mf">20e03&lt;/span>&lt;span class="err">d&lt;/span>&lt;span class="mi">93&lt;/span>&lt;span class="err">b&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="err">b&lt;/span>&lt;span class="mi">3368&lt;/span>&lt;span class="err">fce&lt;/span>&lt;span class="mi">09&lt;/span>&lt;span class="err">c&lt;/span>&lt;span class="mf">8e8&lt;/span>&lt;span class="err">&amp;#39;,&lt;/span>
+&lt;span class="err">s:&lt;/span> &lt;span class="err">&amp;#39;&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="err">x&lt;/span>&lt;span class="mi">14&lt;/span>&lt;span class="err">f&lt;/span>&lt;span class="mi">1104&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="err">fa&lt;/span>&lt;span class="mi">98&lt;/span>&lt;span class="err">fed&lt;/span>&lt;span class="mi">53&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">06&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">4&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">6464503&lt;/span>&lt;span class="err">d&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="err">f&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mi">822191&lt;/span>&lt;span class="err">c&lt;/span>&lt;span class="mi">022&lt;/span>&lt;span class="err">a&lt;/span>&lt;span class="mf">2180e45&lt;/span>&lt;span class="err">c&lt;/span>&lt;span class="mi">258809&lt;/span>&lt;span class="err">b&amp;#39;,&lt;/span>
+&lt;span class="err">v:&lt;/span> &lt;span class="mi">62710&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">creates:&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">chainId:&lt;/span> &lt;span class="mi">31337&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="err">wait:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="err">Function&lt;/span> &lt;span class="err">(anonymous)&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="err">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>You can also have a look at the termial running &lt;code>yarn hardhat node&lt;/code>. Transaction details are logged on the screen:&lt;/p>
+&lt;pre tabindex="0">&lt;code> Transaction: 0x8915f9df88e4f2af2eefe05922e026c66723678b7df3de11e525a03c11b391a2
+From: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+To: 0x70997970c51812dc3a010c7d01b50e0d17dc79c8
+Value: 100 ETH
+Gas used: 21000 of 135168
+Block #1: 0xfae5411b597d02b1c36a6842f14db5aad7ac2b974474f06355bd1b4eb5d438ed
+&lt;/code>&lt;/pre>&lt;hr>
+&lt;p>If you find this note useful, please follow my twitter &lt;a href="https://twitter.com/fjun99">@fjun99&lt;/a>.&lt;/p>
+&lt;hr></description></item><item><title>2 Day of 100 Days of Code</title><link>https://dev.portalsindex.xyz/posts/2-day-100-days-of-code-446c/</link><pubDate>Mon, 31 Jan 2022 16:14:38 +0000</pubDate><author>InvalidLenni</author><guid>https://dev.portalsindex.xyz/posts/2-day-100-days-of-code-446c/</guid><description>
+&lt;h2 id="day-2-of-100daysofcode-started-with">
+&lt;a href="#day-2-of-100daysofcode-started-with" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Day 2 of #100DaysOfCode started with&amp;amp;hellip;
+&lt;/h2>
+&lt;p>refresh my PHP knowledge. I made the documentation / wiki of the &lt;a href="https://github.com/InvalidLenni/DiscordCustomRPC.py">DiscordCustomRPC.py repository&lt;/a> a little more understandable. I also updated the Python rewrite of the AntiScamBot backend, but it&amp;rsquo;s not yet merged.&lt;/p></description></item><item><title>3 Simple steps to increase speed efficiency while working browsing</title><link>https://dev.portalsindex.xyz/posts/3-simple-steps-to-increase-speed-efficiency-while-working-browsing-42n0/</link><pubDate>Mon, 31 Jan 2022 00:42:07 +0000</pubDate><author>Alan</author><guid>https://dev.portalsindex.xyz/posts/3-simple-steps-to-increase-speed-efficiency-while-working-browsing-42n0/</guid><description>
+&lt;p>If you&amp;rsquo;re like me then you prefer to do everything on the computer without touching the mouse. It&amp;rsquo;s almost like a game sometimes. How can I open this program or browse this webpage without needing to lift my hands off of the keyboard? More specifically, how can I keep my fingers on the wasdf-jkli keys while navigating? Afterall, lifting my hand up to reach for the arrow keys is almost the same distance away as my mouse is. Too much effort!&lt;/p>
+&lt;p>If you resonate with any of what I just said, this article is for you.&lt;/p>
+&lt;h2 id="1-install-vimiumhttpschromegooglecomwebstoredetailvimiumdbepggeogbaibhgnhhndojpepiihcmeb">
+&lt;a href="#1-install-vimiumhttpschromegooglecomwebstoredetailvimiumdbepggeogbaibhgnhhndojpepiihcmeb" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+1: &amp;lt;a href=&amp;#34;https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb&amp;#34;&amp;gt;Install Vimium&amp;lt;/a&amp;gt;
+&lt;/h2>
+&lt;p>Vimium is a google chrome extension that allows you to browse the web with much more control than normal.&lt;/p>
+&lt;p>Modern web pages are being designed with more and more accessibility features, such as built in tab-indexing, but it can still feel exhausting to have to cycle through every indexed element on the page to finally reach the one you want. I always overshoot it and have to shift tab another thirteen times to get back to where you want to be&amp;hellip;&lt;/p>
+&lt;p>Enter Vimium&lt;/p>
+&lt;p>Now you can easily scroll up and down on most pages using just the &amp;lsquo;j&amp;rsquo; and &amp;lsquo;k&amp;rsquo; keys and you can quickly access most elements of the page by pressing &amp;lsquo;f&amp;rsquo; then typing the corresponding tags. Instead of using ctrl+F you can simply press the &amp;lsquo;/&amp;rsquo; slash key to insert your cursor at any text you search for.&lt;/p>
+&lt;p>&lt;img loading="lazy"
+src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/15qnajluiaz6269ulama.JPG"
+alt="A screen capture of a google search:&amp;amp;ldquo;How to be a millionare in 2022&amp;amp;rdquo; which has the Vimium extension activated and showing each selectable element"
+/>&lt;/p>
+&lt;h2 id="2-rebind-your-arrow-keys-to-your-j-k-l-i-keys-using-autohotkeyhttpswwwautohotkeycom">
+&lt;a href="#2-rebind-your-arrow-keys-to-your-j-k-l-i-keys-using-autohotkeyhttpswwwautohotkeycom" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+2: Rebind your arrow keys to your &amp;amp;lsquo;j k l i&amp;amp;rsquo; keys using &amp;lt;a href=&amp;#34;https://www.autohotkey.com/&amp;#34;&amp;gt;AutoHotkey&amp;lt;/a&amp;gt;
+&lt;/h2>
+&lt;p>Control your cursor with Capslock + j k l i instead of your arrow keys. Trust me you don&amp;rsquo;t need Capslock. You&amp;rsquo;re not obnoxious are you? Just hold down shift.&lt;/p>
+&lt;p>You&amp;rsquo;ll need to first download &amp;amp; install AutoHotkey and write a script to remap your keyboard a little. Create a script file with the extension .ahk and copy and paste the following code&lt;/p>
+&lt;pre tabindex="0">&lt;code>#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
+; #Warn ; Enable warnings to assist with detecting common errors.
+SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
+SetCapsLockState, AlwaysOff
+CapsLock &amp;amp; j::Send, {blind}{Left}
+CapsLock &amp;amp; k::Send, {blind}{Down}
+CapsLock &amp;amp; l::Send, {blind}{Right}
+CapsLock &amp;amp; i::Send, {blind}{Up}
+CapsLock &amp;amp; h::Send, {blind}{Backspace}
+&lt;/code>&lt;/pre>&lt;p>I found this code from the following blog by a programmer named Nikita: &lt;a href="https://tonsky.me/blog/cursor-keys/">https://tonsky.me/blog/cursor-keys/&lt;/a> that explains why your cursor keys belong in the middle of your keyboard. Simply open up cmd and run the script from the directory you saved it in.&lt;/p>
+&lt;p>Alternatively you can right click the script and select run. Pausing the script is done in the same manner.&lt;/p>
+&lt;p>Combined with Vimium you should now be browsing the internet and shuffling your cursor around your code at the speed of&amp;hellip; your fingers? Anyways it&amp;rsquo;s faster than lifting your hands off the keyboard. There is one more thing you can do to speed up your productivity.&lt;/p>
+&lt;h2 id="3-enable-caret-browsing">
+&lt;a href="#3-enable-caret-browsing" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+3: Enable caret browsing
+&lt;/h2>
+&lt;p>I almost spelled that &amp;lsquo;carrot&amp;rsquo; instead. Anyone could make that mistake so don&amp;rsquo;t judge me! Simply press F7 on Windows 10 to enable caret browsing.&lt;/p>
+&lt;p>&lt;img loading="lazy"
+src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5nv3oz48wvzqmyvylufo.JPG"
+alt="A screen capture of the alert window that prompts the user to allow caret browsing after pressing F7"
+/>&lt;/p>
+&lt;p>This makes copy paste scenarios faster and more satisfying.&lt;/p>
+&lt;p>Thanks for reading my 3 step process to speeding up your workflow. If you have any other &amp;lsquo;power user&amp;rsquo; suggestions feel free to leave a comment.&lt;/p>
+&lt;p>If you enjoyed this article please leave a like.&lt;/p></description></item><item><title>3 Ways To Learn Coding Within Three Months</title><link>https://dev.portalsindex.xyz/posts/3-ways-to-learn-coding-within-three-months-enb/</link><pubDate>Mon, 24 Jan 2022 18:22:29 +0000</pubDate><author>Elliot Brenya sarfo</author><guid>https://dev.portalsindex.xyz/posts/3-ways-to-learn-coding-within-three-months-enb/</guid><description>
+&lt;p>If you desire to code but have no plan on how to get started then this article is for you. Desiring to code is one thing and being consistent about it is another thing. Most &lt;a href="https://www.anythingprogramming.com/?m=1">beginners&lt;/a> give up when things start to go south. Welcome to anythingprogramming.com, in this article I will list some guides that will help you to stay on track without burning out.&lt;/p>
+&lt;p>&lt;strong>Why Do You Desire To Code?&lt;/strong>&lt;/p>
+&lt;p>The answer to this question might be challenging to figure out. Some see coding as nothing other than sitting in front of your computer to code others derive their passion from others.&lt;/p>
+&lt;p>Deriving passion from people isn’t bad but the question you have to ask yourself is can I hold on to this passion for long? Do I even understand this passion?&lt;/p>
+&lt;p>** Are Three months enough to Get Started?**&lt;/p>
+&lt;p>With consistency and plan, three months will be too much. If you dedicate an hour a day to study continuously without any interruption you will be able to build basic systems or applications.&lt;/p>
+&lt;p>The most difficult aspect is to get started. You will not be good at coding overnight but with a little bit of dedication and discipline, you will be doing well by watching tutorials videos, reading extensively and noting points.&lt;/p>
+&lt;p>&lt;strong>Ways To Learn To Code Within Three Months&lt;/strong>&lt;/p>
+&lt;p>** 1. Read Books**&lt;/p>
+&lt;p>There are millions of coding books out there to support you in your &lt;a href="https://www.anythingprogramming.com/?m=1">coding&lt;/a> journey. Note, reading these books will not make you a good programmer but if you practice what is written in the book over time, you will be doing well.&lt;/p>
+&lt;p>2 &lt;strong>Sign-Up For Bootcamp&lt;/strong>
+There are &lt;a href="https://www.anythingprogramming.com/?m=1">alternatives&lt;/a> to this by pursuing a computer science degree. Sign-up to boot camp helps you to be in alignment whiles you make friends with people who have the same interest as you do. Bootcamp shortens the learning curves by giving you the right information which is needed to get started.&lt;/p>
+&lt;ol start="3">
+&lt;li>&lt;strong>Get Mentor&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>A mentor is someone who will hold your hands and help you when you are need it. Mentors’ advice helps you think broadly, they also make you aware of what you might be facing in the industry.&lt;/p>
+&lt;p>&lt;strong>Conclusion&lt;/strong>&lt;/p>
+&lt;p>It is possible to learn coding within three months or less if you follow the above-listed information. Share this post if you find it informative and educating.&lt;/p>
+&lt;p>Thank You.&lt;/p></description></item><item><title>3 piece of advice for junior developers</title><link>https://dev.portalsindex.xyz/posts/3-piece-of-advice-for-junior-developers-6gg/</link><pubDate>Sun, 23 Jan 2022 14:17:38 +0000</pubDate><author>Sandor Dargo</author><guid>https://dev.portalsindex.xyz/posts/3-piece-of-advice-for-junior-developers-6gg/</guid><description>
+&lt;p>A few months ago, my manager asked me if I&amp;rsquo;d like to facilitate some technical interviews. My answer was hell yeah!&lt;/p>
+&lt;p>I think it&amp;rsquo;s great that management involves senior developers in the selection process. On the one hand, it&amp;rsquo;s good for the team if they know that someone who is hands-on with the code saw the new colleague, talked to him/her and asked - hopefully - relevant questions. On the other hand, it&amp;rsquo;s also reassuring for the candidates that they can talk to someone who is doing the same job as he would.&lt;/p>
+&lt;p>During these few months, I conducted a couple of interviews, both with junior and senior people and I&amp;rsquo;d like to share some pieces of advice - mostly for developers with little experience.&lt;/p>
+&lt;h2 id="your-cv-vs-reality">
+&lt;a href="#your-cv-vs-reality" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Your CV vs reality
+&lt;/h2>
+&lt;p>My first job was a non-developer job at a small company dealing with municipalities. I was called a project manager, that was my official title. I was thinking to put that on my CV.&lt;/p>
+&lt;p>But it felt better to simply write project coordinator on the resume. It&amp;rsquo;s less fancy and it creates fewer expectations. Later, with more experience in the bag, I changed the title back to project manager.&lt;/p>
+&lt;p>Why do I tell this?&lt;/p>
+&lt;p>Even though the role of your resume is to let you pass the screening and get you an interview, it&amp;rsquo;s not as simple as that.&lt;/p>
+&lt;p>Your CV shouldn&amp;rsquo;t harm you during the interviews!&lt;/p>
+&lt;p>Tailor your CV for each position. In small startups, sometimes the person with the most experience gets the catchy title of a CTO. Even if that &amp;ldquo;most experience&amp;rdquo; is just an extra couple of months. Now, if you communicate that you are a CTO - even at a small startup - and you apply for a (junior) developer job, you&amp;rsquo;ll meet high(er) expectations compared to if you would have just written that you are a developer at that startup.&lt;/p>
+&lt;p>Another bad habit people are prone to during the beginning of their career is skill stacking on the CV. If you list 10 different technologies you&amp;rsquo;re proficient with after 1-2 years of work, it&amp;rsquo;s hard to assume that it&amp;rsquo;s realistic.&lt;/p>
+&lt;p>I wouldn&amp;rsquo;t realistically expect it even from someone with 10 years of experience.&lt;/p>
+&lt;p>I had a look at my CV while writing these lines, and I also have 10 skills listed as advanced after being on the market for 12 years. Yet, almost half of them are about the same technology:&lt;/p>
+&lt;ul>
+&lt;li>C++ with a version number, meaning that I&amp;rsquo;m up-to-date with up until that version&amp;rsquo;s features,&lt;/li>
+&lt;li>the C++ STL, meaning that I&amp;rsquo;m comfortable with the &lt;a href="https://www.sandordargo.com/blog/2019/01/30/stl-algos-intro">standard template library&lt;/a>,&lt;/li>
+&lt;li>and 2 more C++ test frameworks, &lt;a href="https://www.sandordargo.com/blog/2019/04/24/parameterized-testing-with-gtest">gTest&lt;/a> and gMock.&lt;/li>
+&lt;/ul>
+&lt;p>In case you mention that you worked as an instructor, know at least the basics of what you taught. You don&amp;rsquo;t have to know all the advanced things of that technology, but you must know the basics pretty well.&lt;/p>
+&lt;p>If you already forgot what you taught and you wouldn&amp;rsquo;t be able to explain those concepts again, maybe it&amp;rsquo;s better not to list yourself as an instructor. Or only mention it if the technology is not relevant for the job you applied for. But even that has its own dangers. Assume that you&amp;rsquo;ll meet someone who will ask about those topics that you thought.&lt;/p>
+&lt;h2 id="admit-that-you-dont-know">
+&lt;a href="#admit-that-you-dont-know" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Admit that you don&amp;amp;rsquo;t know
+&lt;/h2>
+&lt;p>Speaking about not knowing things&amp;hellip; It&amp;rsquo;s perfectly fine not to know answers to all the questions.&lt;/p>
+&lt;p>Just admit that you don&amp;rsquo;t have the answer to a given question.&lt;/p>
+&lt;p>We all have to look things up, we all - should - learn every day. I learnt C++ syntax a couple of months ago from one of our fresh grads. And I was more than happy about it!&lt;/p>
+&lt;p>But don&amp;rsquo;t just say something hoping that it will be the right answer. An interview is not a university test where you should throw a dice hoping that you might get it right and get the extra point.&lt;/p>
+&lt;p>In any case, most interviewers will catch it if you just try your chance.&lt;/p>
+&lt;p>The more complex the question, the more true this is. Throwing in whatever technology as an answer for an architectural question will never work.&lt;/p>
+&lt;p>Interviewers don&amp;rsquo;t care whether you&amp;rsquo;d use docker or another technology for scaling up a service. They, we are interested in how you think and what kind of issues, contradictions you expect to encounter during the design and implementation of a scalable system.&lt;/p>
+&lt;p>Let me give you an example. While we were scaling an application, we started to add new application servers, but at a point, this meant that more and more database connections were opened to the single database server and it couldn&amp;rsquo;t cope with it.&lt;/p>
+&lt;p>Describing such a situation doesn&amp;rsquo;t require any technology.&lt;/p>
+&lt;h2 id="some-concepts-you-just-have-to-learn">
+&lt;a href="#some-concepts-you-just-have-to-learn" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Some concepts you just have to learn
+&lt;/h2>
+&lt;p>So far we discussed a couple of things to pay attention to when you write your CV and also to admit when you don&amp;rsquo;t know the answer to a question.&lt;/p>
+&lt;p>There is one last thing, I want to share in this article.&lt;/p>
+&lt;p>Many questions, many topics are technology dependent.&lt;/p>
+&lt;p>You don&amp;rsquo;t really care or know about gMock or gTest if you are a React developer.&lt;/p>
+&lt;p>You don&amp;rsquo;t care about Angular or React when all what you do is touching backend services serving hundreds of transactions (or more) per second.&lt;/p>
+&lt;p>But you should care about concepts that are useful everywhere in IT.&lt;/p>
+&lt;p>Some evergreen concepts you should learn about:&lt;/p>
+&lt;ul>
+&lt;li>Unit testing&lt;/li>
+&lt;li>Automated testing in general&lt;/li>
+&lt;li>How to write clean code&lt;/li>
+&lt;li>Refactoring&lt;/li>
+&lt;li>SOLID design principles&lt;/li>
+&lt;li>Data structures&lt;/li>
+&lt;li>A bit of algorithms&lt;/li>
+&lt;/ul>
+&lt;p>I don&amp;rsquo;t say that you should know everything nor that this is an exhaustive list or that data structures and algorithms have the same importance at the frontend and at the backend world. Though knowing some basics won&amp;rsquo;t hurt.&lt;/p>
+&lt;p>Obviously, you cannot learn everything at once and you don&amp;rsquo;t have to. The best thing you can do - in my opinion - is to read a few pages every day and practice. &lt;a href="https://dev.to/sandordargo/8-books-every-junior-developer-should-read--4p5h">Here are a couple of books&lt;/a> that helped me a lot.&lt;/p>
+&lt;h2 id="conclusion">
+&lt;a href="#conclusion" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Conclusion
+&lt;/h2>
+&lt;p>In this article, I shared a couple of things, mostly inexperienced developers do when they apply for a job.&lt;/p>
+&lt;p>I think you can seriously increase your chances if you don&amp;rsquo;t try to suggest something in your CV that is not true.&lt;/p>
+&lt;p>Definitely, you should admit when you don&amp;rsquo;t the answer to a question!&lt;/p>
+&lt;p>But I think the most important is to keep learning every day and start with concepts that will be useful for you wherever you go.&lt;/p>
+&lt;h2 id="connect-deeper">
+&lt;a href="#connect-deeper" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Connect deeper
+&lt;/h2>
+&lt;p>If you liked this article, please&lt;/p>
+&lt;ul>
+&lt;li>hit on the like button,&lt;/li>
+&lt;li>&lt;a href="http://eepurl.com/gvcv1j">subscribe to my newsletter&lt;/a>&lt;/li>
+&lt;li>and let&amp;rsquo;s connect on &lt;a href="https://twitter.com/SandorDargo">Twitter&lt;/a>!&lt;/li>
+&lt;/ul></description></item><item><title>01 Product of Array Except Self</title><link>https://dev.portalsindex.xyz/posts/01-product-of-array-except-self-20ak/</link><pubDate>Sat, 22 Jan 2022 06:48:49 +0000</pubDate><author>Sameer Kumar</author><guid>https://dev.portalsindex.xyz/posts/01-product-of-array-except-self-20ak/</guid><description>
+&lt;p>I have been discussing many topics in my blog but it’s time to start from the root once again. In this blog and upcoming few we’ll discuss how to attempt general competitive programming questions, no fancy data structures or algorithms, but thinking outside the box and cooking up some good enough solutions together.&lt;/p>
+&lt;blockquote>
+&lt;p>Understanding how code works is more important than coding an app, Understanding how your own thoughts work is even more important.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="imaginary-problem-time">
+&lt;a href="#imaginary-problem-time" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Imaginary problem time:&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;blockquote>
+&lt;p>Given an integer array &lt;code>nums&lt;/code>, return &lt;em>an array&lt;/em> &lt;code>answer&lt;/code> &lt;em>such that&lt;/em> &lt;code>answer[i]&lt;/code> &lt;em>is equal to the product of all the elements of&lt;/em> &lt;code>nums&lt;/code> &lt;em>except&lt;/em> &lt;code>nums[i]&lt;/code>.&lt;/p>
+&lt;p>&lt;em>You must write an algorithm that runs in&lt;/em> &lt;code>_O(n)_&lt;/code> &lt;em>time and without using the division operation.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>Looks simple at the surface but digging in, we’ll find many good concepts. Don’t know if it&amp;rsquo;s the right info or not, but leetcode says it was asked in these big shot interviews (Yeah! We can’t even guess which company names are blurred here, LOL!). 😅&lt;/p>
+&lt;p>&lt;img loading="lazy"
+src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e9mzq9msa8dngcu92m04.png"
+alt="product of array except for self"
+/>&lt;/p>
+&lt;h2 id="solution-time">
+&lt;a href="#solution-time" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Solution time&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>nums = [1, 2, 3, 4]&lt;/p>
+&lt;p>Here, we need to find the product of all numbers except self and return results in an array. Easy-peezy!&lt;/p>
+&lt;ol>
+&lt;li>2*3*4 = 24&lt;/li>
+&lt;li>1*3*4 = 12&lt;/li>
+&lt;li>1*2*4 = 8&lt;/li>
+&lt;li>1*2*3 = 6&lt;/li>
+&lt;/ol>
+&lt;p>Result: [24, 12, 8, 6]&lt;/p>
+&lt;h2 id="algorithm">
+&lt;a href="#algorithm" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Algorithm&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>Loop through nums and find &lt;strong>&lt;em>product of all elements on left side and elements on right side.&lt;/em>&lt;/strong> It may sound simple but is important to know how we reached to this very solution among all possibilities.&lt;/p>
+&lt;h2 id="implementation-and-discussion">
+&lt;a href="#implementation-and-discussion" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Implementation and Discussion
+&lt;/h2>
+&lt;p>=============================&lt;/p>
+&lt;h2 id="greedy-way">
+&lt;a href="#greedy-way" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Greedy way&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>The most tempting way to solve such a problem will be to take the product of the entire array and divide it by the element for which we need the value. Like: If we need value for &lt;strong>b&lt;/strong> then: (&lt;strong>a*b*c*d) / b = a*c*d&lt;/strong> , this is exactly we want for element b, right? Everything except &lt;strong>b&lt;/strong>.&lt;br>
+This bubble will burst out when we need to consider a case when &lt;strong>b&lt;/strong> is &lt;strong>0.&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code>Input: nums = [-1,1,0,-3,3]
+Output: [0,0,9,0,0]
+&lt;/code>&lt;/pre>&lt;p>In above case our logic will surely fail with result: [0, 0, Infinity, 0, 0].&lt;/p>
+&lt;h2 id="rookie-ninja-way">
+&lt;a href="#rookie-ninja-way" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Rookie Ninja Way&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>A ninja always takes edge cases in consideration. One simple and stupid way to get it done is take product of all numbers on left side and multiply with products of all numbers on right side, giving product of all numbers except self: &lt;strong>product([-1, 1] ) * product([-3,3]).&lt;/strong> This solution will work for all cases, but one BIG problem ahead: Product is a heavy operation in itself and doing it for say 10,000 elements in the array, then it will result in &lt;strong>O(n²)&lt;/strong> complexity and you’ll fail the test even after being a ninja.&lt;/p>
+&lt;h2 id="ultimate-ninja-way">
+&lt;a href="#ultimate-ninja-way" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Ultimate Ninja Way&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>One beautiful way to do multiplication in such a case is this sweet algorithm: &lt;strong>Product till n-th element is product till (n-1)th element * nth element.&lt;/strong> Earlier, we had to multiply all elements of the array except to get that value, but now we take product till that number and just multiply itself. Done and dusted in &lt;strong>1&lt;/strong> operation, where &lt;strong>n&lt;/strong> operations were needed. This will take care of our left side product.&lt;/p>
+&lt;p>A small modification will take care of the right side as well. We start from the right end of the array, unlike the left product where we had to start from the left side, kinda intuitive! One catch in my implementation is the reversal of the right products to bring it in the same order as the left one, remember we filled the right products array in the opposite way.&lt;/p>
+&lt;p>Example: [1,2,3,4,5,6,7,8]&lt;br>
+For &lt;strong>4:&lt;br>
+Left product:&lt;/strong> (Already calcalated product for &lt;strong>[1, 2]&lt;/strong>) &lt;strong>* 3 = 6&lt;br>
+Right product:&lt;/strong> (Already calcalated product for &lt;strong>[6, 7, 8]&lt;/strong>) &lt;strong>* 5= 1680&lt;/strong>&lt;/p>
+&lt;h2 id="code">
+&lt;a href="#code" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Code&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>&lt;img loading="lazy"
+src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fvgoqem24rukpj7jpb74.png"
+alt="Product of array except self solution in python"
+/>
+(&lt;a href="https://github.com/sameer1612/CP-Solutions/blob/main/product_of_array_except_self.py">https://github.com/sameer1612/CP-Solutions/blob/main/product_of_array_except_self.py&lt;/a>)&lt;/p>
+&lt;h2 id="conclusion">
+&lt;a href="#conclusion" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;Conclusion&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>This is a totally new area of discussion with you folks but no matter how many fancy technologies we touch or roles we cherish, we are coders and we code solutions to problems around us. I’ll like to write more of such blogs, maybe once a week if you like, do let me know.&lt;/p>
+&lt;h2 id="to-connect">
+&lt;a href="#to-connect" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+To Connect
+&lt;/h2>
+&lt;p>==========&lt;/p>
+&lt;p>🏭 LinkedIn: &lt;a href="https://www.linkedin.com/in/sameerkumar1612/">https://www.linkedin.com/in/sameerkumar1612&lt;br>
+/&lt;/a>
+🏠 Website: &lt;a href="https://hi-sameer.web.app/">https://hi-sameer.web.app&lt;/a>&lt;/p>
+&lt;p>&lt;img loading="lazy"
+src="https://miro.medium.com/max/1400/1*9WTANLEDwnxXlIoSa8PNTw.png"
+alt="Not just another engineer"
+/>&lt;/p></description></item><item><title>1 line of code How to reverse all words of a string</title><link>https://dev.portalsindex.xyz/posts/1-line-of-code-how-to-reverse-all-words-of-a-string-n26/</link><pubDate>Wed, 19 Jan 2022 15:04:02 +0000</pubDate><author>martin krause</author><guid>https://dev.portalsindex.xyz/posts/1-line-of-code-how-to-reverse-all-words-of-a-string-n26/</guid><description>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="kr">const&lt;/span> &lt;span class="nx">reverseWords&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">str&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="nx">str&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">split&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34; &amp;#34;&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">map&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="nx">word&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">[...&lt;/span>&lt;span class="nx">word&lt;/span>&lt;span class="p">].&lt;/span>&lt;span class="nx">reverse&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="nx">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">)).&lt;/span>&lt;span class="nx">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Returns the string with all words reversed&lt;/p>
+&lt;hr>
+&lt;h2 id="improved-version-with-unicode-support">
+&lt;a href="#improved-version-with-unicode-support" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Improved version with unicode support
+&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="kr">const&lt;/span> &lt;span class="nx">reverseWords&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">str&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="nx">str&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">replace&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="sr">/(\p{L}+)/gu&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">word&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">[...&lt;/span>&lt;span class="nx">word&lt;/span>&lt;span class="p">].&lt;/span>&lt;span class="nx">reverse&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="nx">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;hr>
+&lt;h2 id="the-repository-and-npm-package">
+&lt;a href="#the-repository-and-npm-package" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+The repository and npm package
+&lt;/h2>
+&lt;p>You can find the all the utility functions from this series at &lt;a href="https://github.com/martinkr/onelinecode">github.com/martinkr/onelinecode&lt;/a>
+The library is also published to &lt;a href="https://www.npmjs.com/package/@onelinecode/onelinecode">npm as @onelinecode&lt;/a> for your convenience.&lt;/p>
+&lt;p>The code and the npm package will be updated every time I publish a new article.&lt;/p>
+&lt;hr>
+&lt;p>Follow me on &lt;a href="http://twitter.com/_martinkr">Twitter: @martinkr&lt;/a> and consider to &lt;a href="https://www.buymeacoffee.com/martinkr">buy me a coffee&lt;/a>&lt;/p>
+&lt;p>Photo by &lt;a href="https://unsplash.com/@zoo_monkey">zoo_monkey&lt;/a> on &lt;a href="https://unsplash.com/s/photos/fuji">Unsplash&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;a href="https://modernfrontend.dev/">&lt;img loading="lazy"
+src="https://modernfrontend.dev/banner/banner_583-111.png"
+alt="Subscribe to the weekly modern frontend development newsletter"
+/>&lt;/a>&lt;/p>
+&lt;hr></description></item><item><title>1 line of code How to reverse a string</title><link>https://dev.portalsindex.xyz/posts/1-line-of-code-how-to-reverse-a-string-2pga/</link><pubDate>Wed, 19 Jan 2022 14:55:25 +0000</pubDate><author>martin krause</author><guid>https://dev.portalsindex.xyz/posts/1-line-of-code-how-to-reverse-a-string-2pga/</guid><description>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="kr">const&lt;/span> &lt;span class="nx">reverseString&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">str&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">[...&lt;/span>&lt;span class="nx">str&lt;/span>&lt;span class="p">].&lt;/span>&lt;span class="nx">reverse&lt;/span>&lt;span class="p">().&lt;/span>&lt;span class="nx">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Returns the reversed string.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-repository--npm-package">
+&lt;a href="#the-repository--npm-package" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+The repository &amp;amp;amp; npm package
+&lt;/h2>
+&lt;p>You can find the all the utility functions from this series at &lt;a href="https://github.com/martinkr/onelinecode">github.com/martinkr/onelinecode&lt;/a>
+The library is also published to &lt;a href="https://www.npmjs.com/package/@onelinecode/onelinecode">npm as @onelinecode&lt;/a> for your convenience.&lt;/p>
+&lt;p>The code and the npm package will be updated every time I publish a new article.&lt;/p>
+&lt;hr>
+&lt;p>Follow me on &lt;a href="http://twitter.com/_martinkr">Twitter: @martinkr&lt;/a> and consider to &lt;a href="https://www.buymeacoffee.com/martinkr">buy me a coffee&lt;/a>&lt;/p>
+&lt;p>Photo by &lt;a href="https://unsplash.com/@zoo_monkey">zoo_monkey&lt;/a> on &lt;a href="https://unsplash.com/s/photos/fuji">Unsplash&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>&lt;a href="https://modernfrontend.dev/">&lt;img loading="lazy"
+src="https://modernfrontend.dev/banner/banner_583-111.png"
+alt="Subscribe to the weekly modern frontend development newsletter"
+/>&lt;/a>&lt;/p>
+&lt;hr></description></item></channel></rss>
