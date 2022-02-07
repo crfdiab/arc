@@ -1,0 +1,154 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev Arc</title><link>https://dev.portalsindex.xyz/</link><description>Recent content on Dev Arc</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 03:43:37 +0000</lastBuildDate><atom:link href="https://dev.portalsindex.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>001 The Week In Stories Tech Salaries Freebies and Dev Things</title><link>https://dev.portalsindex.xyz/posts/001-the-week-in-stories-tech-salaries-freebies-and-dev-things-2bmi/</link><pubDate>Tue, 01 Feb 2022 03:43:37 +0000</pubDate><author>Aphinya Dechalert</author><guid>https://dev.portalsindex.xyz/posts/001-the-week-in-stories-tech-salaries-freebies-and-dev-things-2bmi/</guid><description>
+&lt;p>Hi all!&lt;/p>
+&lt;p>Welcome to the first edition of &lt;strong>{Tech &amp;amp; Dev}&lt;/strong>.&lt;/p>
+&lt;p>At the beginning of this year, I made a goal for myself to be more consistent with creating things — whether it be through my writing or making mini-apps on the side to learn new things and keep up with the tech.&lt;/p>
+&lt;p>The point is that I make and keep making — come rain, shine, lockdowns, homeschooling, and whatever life will throw at me in 2022. This newsletter is part of the consistency and creation pledge.&lt;/p>
+&lt;p>Without further ado, let’s dive into this week’s stories.&lt;/p>
+&lt;h2 id="1-what-tech-companies-are-really-paying-their-developers">
+&lt;a href="#1-what-tech-companies-are-really-paying-their-developers" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;1. What tech companies are really paying their developers&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>Asking for money is a touchy business. We don’t want to lose out on a job because we’re asking too much. We also don’t want to be underpaid either. Sometimes, it’s hard to know exactly where we’re standing when it comes to paychecks and how much software developers should be paid.&lt;/p>
+&lt;p>Sure, there’s the old method of asking what you think you’re worth — but then we run the risk of undervaluing our skills because we don’t know what the market rates are.&lt;/p>
+&lt;p>So I went digging and here’s what I found.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://medium.com/madhash/what-tech-companies-are-really-paying-their-developers-1e1762791888">What Tech Companies Are Really Paying Their Developers&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="2-how-to-use-cloudflare-tunnels-for-free">
+&lt;a href="#2-how-to-use-cloudflare-tunnels-for-free" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;2. How to use Cloudflare tunnels for free&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>You’ve built an app but it still lives on your localhost:3000. You want to share a preview of this app with your friends, boss, or client without the need to deploy it. Or you might just want to test a service worker. Whatever the case, something or someone needs access to your localhost.&lt;/p>
+&lt;p>This is where tunnels come in. Cloudflare has a free tunnel service that you can use. I’ve tested it. It’s seamless to start using and less annoying than ngrok.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉 &lt;a href="https://layercode.com/community/cloudflare-tunnels">How to use Cloudflare tunnels for free&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="3-why-custom-react-hooks-could-destroy-your-app-performance">
+&lt;a href="#3-why-custom-react-hooks-could-destroy-your-app-performance" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;3. Why custom react hooks could destroy your app performance&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>For performance-sensitive apps custom React hooks can very easily turn into the biggest performance killer, if not written and used very carefully. This story isn’t about how to build and use hooks — rather, it’s about their performance implication for complicated apps.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://www.developerway.com/posts/why-custom-react-hooks-could-destroy-your-app-performance">Why custom react hooks could destroy your app performance&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="4-a-quick-field-guide-to-using-remix-with-apollo-graphql">
+&lt;a href="#4-a-quick-field-guide-to-using-remix-with-apollo-graphql" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;4. A quick field guide to using Remix with Apollo GraphQL&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>&lt;a href="https://remix.run/">Remix&lt;/a> is the newest and hottest full-stack React-based framework on the block. Newly minted and open-sourced in November, the framework closed off 2021 with&lt;a href="https://github.com/remix-run"> +10k stars on GitHub&lt;/a>. What makes Remix a different kind of React framework is that it’s primarily a server-side rendered framework. On the first page load the page is pre-rendered on the server, which ensures a super-fast load time.&lt;/p>
+&lt;p>But how does it work? Here is a quick tutorial on how to use Remix with Apollo GraphQL.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://layercode.com/community/remix-apollo-graphql">A quick field guide to using Remix with Apollo GraphQL&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="5-using-sequelize-orm-with-nodejs--mysql">
+&lt;a href="#5-using-sequelize-orm-with-nodejs--mysql" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;5. Using Sequelize ORM with Node.js &amp;amp;amp; MySQL&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>ORMs help developers to write complicated queries quickly and make it easier to update and reuse the code. However, getting started with ORMs can be challenging due to the learning curve. So, here is a quick tutorial on how to set up Sequelize ORM with Node.js and MySQL.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://layercode.com/community/sequelize-with-nodejs">Using Sequelize ORM with Node.js &amp;amp; MySQL&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="6-wanna-upgrade-your-data-science-game-think-like-an-engineer">
+&lt;a href="#6-wanna-upgrade-your-data-science-game-think-like-an-engineer" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;6. Wanna Upgrade your Data Science Game? Think Like an Engineer&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>As a society, we’re drawn to stories of overnight success and of mythical genius that achieves the impossible by building something from nothing. In reality, though, success is more often the result of slow, consistent experimentation and tinkering.&lt;/p>
+&lt;p>Here is a piece about creating an environment that supports the iterative development of ideas and validates them in phases.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://builtin.com/data-science/data-science-pipeline-engineering">Wanna Upgrade Your Data Science Game? Think Like an Engineer.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="7-serverless--an-overview-starter-guide">
+&lt;a href="#7-serverless--an-overview-starter-guide" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;7. Serverless — an overview starter guide&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>Serverless is not new. Up until the mid-2000s, servers were giant rooms that lived on-premise to provide businesses with the infrastructure they needed to run their centralized software systems. Then along came cloud computing, along with ideas like elastic load balancing, on-demand self-service, resource pooling, and infrastructure as a service.&lt;/p>
+&lt;p>Here is a short history with a list of serverless frameworks you can use for your next project.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://layercode.com/community/serverless-starter">Serverless — an overview starter guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="8-is-angular-dead-in-2022">
+&lt;a href="#8-is-angular-dead-in-2022" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;8. Is Angular Dead in 2022?&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>In case you’re unaware, Google has had an interesting track record in the Framework category. So, what’s going on with Angular? Here is a piece that outlines Angular’s potential future fate.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://dev.to/jdgamble555/is-angular-dead-in-2022-bh9">Is Angular Dead in 2022?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="9-how-to-use-firebase-analytics-with-angular">
+&lt;a href="#9-how-to-use-firebase-analytics-with-angular" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;9. How to use Firebase Analytics with Angular&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>Firebase Analytics is one of the most exciting features of Firebase since it provides an application-focused analytics dashboard with countless features. Here is a quick tutorial on setting up Firebase Analytics with Angular.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://layercode.com/community/firebase-analytics-angular">How to Use Firebase Analytics with Angular&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="10-flutter-vs-react-native">
+&lt;a href="#10-flutter-vs-react-native" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+&amp;lt;strong&amp;gt;10. Flutter vs. React Native&amp;lt;/strong&amp;gt;
+&lt;/h2>
+&lt;p>Making the same mobile phone app twice is not the best use of a developer’s time. That’s two different platforms to maintain and manage. By requirement, Apple uses Swift. On the other side of the ring sits Android and its Java-based compilers.&lt;/p>
+&lt;p>This is where ‘bridging’ frameworks and libraries come in. Flutter and React Native are two popular bridging solutions that make it possible to code once and use multiple platforms. Flutter assumed that you build an app once, and it will work on any screen. React Native is a flavor of React that leverages the current implementation of its JavaScript UI library and makes it possible to run on any mobile device. On the surface, these features sound great — but with every perk, there is a quirk.&lt;/p>
+&lt;ul>
+&lt;li>Read it here 👉&lt;a href="https://www.tabnine.com/blog/flutter-vs-react-native/">Flutter vs. React Native&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>And that&amp;rsquo;s it for this week! Stay tuned for next week&amp;rsquo;s tech and dev finds.&lt;/p></description></item></channel></rss>
