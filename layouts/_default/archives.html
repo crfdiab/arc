@@ -1,52 +1,49 @@
-{{ define "main" }}
+{{- define "main" }}
 
-<header>
-    <div class="container">
-        <h1>{{ .Title }}</h1>
-        <p class="subtitle">{{ .Params.subtitle }}</p>
-    </div>
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
 </header>
 
-{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 
-<section>
-    <div class="container">
-        <div class="filter-container">
-          {{ $maxCategoryToShow := $.Site.Params.maxCategoryToShow | default 5 }}
-          {{ range .Site.Taxonomies.categories.TaxonomyArray | first $maxCategoryToShow }}
-            <div class="filter-item" data-value="{{ .Page.Title }}" data-type="categories">
-              {{ .Page.Title }}<sup>{{ .Count }}</sup>
-            </div>
-          {{ end }}
+{{- if .Site.Params.ShowAllPagesInArchive }}
+{{- $pages = site.RegularPages }}
+{{- end }}
+
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">
+    {{- replace .Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+  </h2>
+  {{- range .Pages.GroupByDate "January" }}
+  <div class="archive-month">
+    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
+    <div class="archive-posts">
+      {{- range .Pages }}
+      {{- if eq .Kind "page" }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title">
+          {{- .Title | markdownify }}
+          {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h3>
+        <div class="archive-meta">
+          {{- partial "post_meta.html" . -}}
         </div>
-        <input id="search-query" type="search" placeholder="Search for anything...">
-        
-        <div id="search-results">
-        </div>
-        <section id="articles-list">
-            {{ range $pages.GroupByDate "2006" }}
-            <section>
-                <h2>{{ .Key }}</h2>
-                <div class="posts">
-                    {{ range .Pages }}
-                    <div class="post">
-                        <a href="{{ .RelPermalink }}">
-                            <div class="post-row">
-                                <time>{{ .Date.Format "Jan 02" }}</time>
-                                <h3>{{ .Title }}</h3>
-                            </div>
-                        </a>
-                    </div>
-                    {{ end }}
-                </div>
-            </section>
-            {{ end }}
-        </section>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </div>
+      {{- end }}
+      {{- end }}
     </div>
-</section>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
 
-{{- $opts := dict "minify" hugo.IsProduction -}}
-{{ $search := resources.Get "ts/search.ts" | js.Build $opts | fingerprint }}
-<script async src="{{ $search.RelPermalink }}"></script>
-
-{{ end }}
+{{- end }}{{/* end main */}}
