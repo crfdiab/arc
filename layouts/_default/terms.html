@@ -1,22 +1,9 @@
-{{ define "main" }}
+{{- define "main" -}}
 
-{{ $pages := .Pages }}
-{{ $pages = (.Paginate $pages).Pages }}
+<h1>{{ .Title }}</h1>
 
-<header>
-    <div class="container">
-        <h1>{{ .Title }}</h1>
-    </div>
-</header>
-
-<section>
-    <div class="container">
-        <div class="terms">
-            {{ range (index .Site.Taxonomies (.Title | lower)) }}
-            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="bg-number">{{ .Count }}</span></a>
-            {{ end }}
-        </div>
-    </div>
-</section>
-
+{{ range .Data.Terms.Alphabetical }}
+  <p><a href="{{ .Page.RelPermalink }}"><code>{{ .Page.Title }}</code></a> {{ .Count }}</p>
 {{ end }}
+
+{{- end -}}
