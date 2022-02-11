@@ -1,30 +1,27 @@
 baseURL = "https://dev.portalsindex.xyz/"
 languageCode = "en-us"
-title = "Dev"
+title = "Questions Archive"
 theme="archie"
-copyright = "© Athul"
+copyright = "© dev.portalsindex.xyz"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+googleAnalytics = "UA-107705235-4"
 [params]
   mode="auto"
   useCDN=false
-  subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+  subtitle = "Archive For Questions And Answers"
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/crfdiab/arc"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://github.com/athulcajay/"
+url = "https://github.com/muhmd_diab/"
 
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
 [[menu.main]]
 name = "Home"
 url = "/"
