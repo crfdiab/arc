@@ -20,7 +20,7 @@ url = "https://github.com/crfdiab/arc"
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://github.com/muhmd_diab/"
+url = "https://twitter.com/muhmd_diab/"
 
 [[menu.main]]
 name = "Home"
