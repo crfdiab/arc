@@ -3,7 +3,11 @@
 	<article>
 		<div class="title">
 			<h1 class="title">{{ .Title }}</h1>
-			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
+			<div class="meta"><strong>{{ .WordCount
+ }}</strong> Words | <strong>Posted on</strong> {{ dateFormat "Jan 2, 2006" .Date }} | Reading Time <strong>{{ .ReadingTime }} Minutes</strong>{{ if .Draft }}<span class="draft-label">DRAFT</span> {{ end }}</div>
+			<br>
+			<strong>Page Contents</strong>
+			{{ .TableOfContents }}
 		</div>
 		{{ if isset .Params "tldr" }}
 		<div class="tldr">
