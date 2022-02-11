@@ -1,0 +1,627 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge"><title> - Questions Archive</title><meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Change Log All notable changes to this project will be documented in this file. Updates should follow the Keep a CHANGELOG principles.
+Unreleased 5.0.2 - 2021-11-06 Fixed  Fixed missplaced comment nodes appearing at the start of the HTML input (#212)  5.0.1 - 2021-09-17 Fixed  Fixed lists not using the correct amount of indentation (#211)  5.0.0 - 2021-03-28 Added  Added support for tables (#203)  This feature is disable by default - see README for how to enable it   Added new strip_placeholder_links option to strip <a> tags without href attributes (#196) Added new methods to ElementInterface:  hasParent() getNextSibling() getPreviousSibling() getListItemLevel()   Added several parameter and return types across all classes Added new PreConverterInterface to allow converters to perform any necessary pre-parsing  Changed  Supported PHP versions increased to PHP 7.">
+<meta property="og:image" content>
+<meta property="og:title" content>
+<meta property="og:description" content="Change Log All notable changes to this project will be documented in this file. Updates should follow the Keep a CHANGELOG principles.
+Unreleased 5.0.2 - 2021-11-06 Fixed  Fixed missplaced comment nodes appearing at the start of the HTML input (#212)  5.0.1 - 2021-09-17 Fixed  Fixed lists not using the correct amount of indentation (#211)  5.0.0 - 2021-03-28 Added  Added support for tables (#203)  This feature is disable by default - see README for how to enable it   Added new strip_placeholder_links option to strip <a> tags without href attributes (#196) Added new methods to ElementInterface:  hasParent() getNextSibling() getPreviousSibling() getListItemLevel()   Added several parameter and return types across all classes Added new PreConverterInterface to allow converters to perform any necessary pre-parsing  Changed  Supported PHP versions increased to PHP 7.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://dev.portalsindex.xyz/vendor/league/html-to-markdown/changelog/"><meta property="article:section" content="vendor">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content>
+<meta name=twitter:description content="Change Log All notable changes to this project will be documented in this file. Updates should follow the Keep a CHANGELOG principles.
+Unreleased 5.0.2 - 2021-11-06 Fixed  Fixed missplaced comment nodes appearing at the start of the HTML input (#212)  5.0.1 - 2021-09-17 Fixed  Fixed lists not using the correct amount of indentation (#211)  5.0.0 - 2021-03-28 Added  Added support for tables (#203)  This feature is disable by default - see README for how to enable it   Added new strip_placeholder_links option to strip <a> tags without href attributes (#196) Added new methods to ElementInterface:  hasParent() getNextSibling() getPreviousSibling() getListItemLevel()   Added several parameter and return types across all classes Added new PreConverterInterface to allow converters to perform any necessary pre-parsing  Changed  Supported PHP versions increased to PHP 7.">
+<script src=https://dev.portalsindex.xyz/js/feather.min.js></script>
+<link href=https://dev.portalsindex.xyz/css/fonts.b685ac6f654695232de7b82a9143a46f9e049c8e3af3a21d9737b01f4be211d1.css rel=stylesheet>
+<link rel=stylesheet type=text/css media=screen href=https://dev.portalsindex.xyz/css/main.2f9b5946627215dc1ae7fa5f82bfc9cfcab000329136befeea5733f21e77d68f.css>
+<link id=darkModeStyle rel=stylesheet type=text/css href=https://dev.portalsindex.xyz/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css media="(prefers-color-scheme: dark)">
+</head>
+<body>
+<div class=content><header>
+<div class=main>
+<a href=https://dev.portalsindex.xyz/>Questions Archive</a>
+</div>
+<nav>
+<a href=/>Home</a>
+<a href=/posts>All posts</a>
+<a href=/about>About</a>
+<a href=/tags>Tags</a>
+</nav>
+</header>
+<main>
+<article>
+<div class=title>
+<h1 class=title></h1>
+<div class=meta><strong>1146</strong> Words | <strong>Posted on</strong> Jan 1, 0001 | Reading Time <strong>6 Minutes</strong></div>
+<br>
+<strong>Page Contents</strong>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#unreleasedunreleased><a href=https://github.com/thephpleague/html-to-markdown/compare/5.0.2...master>Unreleased</a></a></li>
+<li><a href=#502---2021-11-06><a href=https://github.com/thephpleague/html-to-markdown/compare/5.0.1...5.0.2>5.0.2</a> - 2021-11-06</a>
+<ul>
+<li><a href=#fixed>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#501---2021-09-17><a href=https://github.com/thephpleague/html-to-markdown/compare/5.0.0...5.0.1>5.0.1</a> - 2021-09-17</a>
+<ul>
+<li><a href=#fixed-1>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#500---2021-03-28><a href=https://github.com/thephpleague/html-to-markdown/compare/4.10.0...5.0.0>5.0.0</a> - 2021-03-28</a>
+<ul>
+<li><a href=#added>Added</a></li>
+<li><a href=#changed>Changed</a></li>
+<li><a href=#fixed-2>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#4100---2020-06-30><a href=https://github.com/thephpleague/html-to-markdown/compare/4.9.1...4.10.0>4.10.0</a> - 2020-06-30</a>
+<ul>
+<li><a href=#added-1>Added</a></li>
+</ul>
+</li>
+<li><a href=#491---2019-12-27><a href=https://github.com/thephpleague/html-to-markdown/compare/4.9.0...4.9.1>4.9.1</a> - 2019-12-27</a>
+<ul>
+<li><a href=#fixed-3>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#490---2019-11-02><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.3...4.9.0>4.9.0</a> - 2019-11-02</a>
+<ul>
+<li><a href=#added-2>Added</a></li>
+</ul>
+</li>
+<li><a href=#483---2019-10-31><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.2...4.8.3>4.8.3</a> - 2019-10-31</a>
+<ul>
+<li><a href=#fixed-4>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#482---2019-08-02><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.1...4.8.2>4.8.2</a> - 2019-08-02</a>
+<ul>
+<li><a href=#fixed-5>Fixed</a></li>
+<li><a href=#removed>Removed</a></li>
+</ul>
+</li>
+<li><a href=#481---2018-12-24><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.0...4.8.1>4.8.1</a> - 2018-12-24</a>
+<ul>
+<li><a href=#added-3>Added</a></li>
+<li><a href=#fixed-6>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#480---2018-09-18><a href=https://github.com/thephpleague/html-to-markdown/compare/4.7.0...4.8.0>4.8.0</a> - 2018-09-18</a>
+<ul>
+<li><a href=#added-4>Added</a></li>
+<li><a href=#changed-1>Changed</a></li>
+<li><a href=#fixed-7>Fixed</a></li>
+<li><a href=#deprecated>Deprecated</a></li>
+</ul>
+</li>
+<li><a href=#470---2018-05-19><a href=https://github.com/thephpleague/html-to-markdown/compare/4.6.2...4.7.0>4.7.0</a> - 2018-05-19</a>
+<ul>
+<li><a href=#added-5>Added</a></li>
+<li><a href=#fixed-8>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#462><a href=https://github.com/thephpleague/html-to-markdown/compare/4.6.1...4.6.2>4.6.2</a></a>
+<ul>
+<li><a href=#fixed-9>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#461><a href=https://github.com/thephpleague/html-to-markdown/compare/4.6.0...4.6.1>4.6.1</a></a>
+<ul>
+<li><a href=#fixed-10>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#460><a href=https://github.com/thephpleague/html-to-markdown/compare/4.5.0...4.6.0>4.6.0</a></a>
+<ul>
+<li><a href=#added-6>Added</a></li>
+<li><a href=#fixed-11>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#450><a href=https://github.com/thephpleague/html-to-markdown/compare/4.4.1...4.5.0>4.5.0</a></a>
+<ul>
+<li><a href=#added-7>Added</a></li>
+</ul>
+</li>
+<li><a href=#441><a href=https://github.com/thephpleague/html-to-markdown/compare/4.4.0...4.4.1>4.4.1</a></a>
+<ul>
+<li><a href=#fixed-12>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#440><a href=https://github.com/thephpleague/html-to-markdown/compare/4.3.1...4.4.0>4.4.0</a></a>
+<ul>
+<li><a href=#added-8>Added</a></li>
+<li><a href=#fixed-13>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#431><a href=https://github.com/thephpleague/html-to-markdown/compare/4.3.0...4.3.1>4.3.1</a></a>
+<ul>
+<li><a href=#changed-2>Changed</a></li>
+<li><a href=#fixed-14>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#430><a href=https://github.com/thephpleague/html-to-markdown/compare/4.2.2...4.3.0>4.3.0</a></a>
+<ul>
+<li><a href=#added-9>Added</a></li>
+<li><a href=#changed-3>Changed</a></li>
+<li><a href=#fixed-15>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#422><a href=https://github.com/thephpleague/html-to-markdown/compare/4.2.1...4.2.2>4.2.2</a></a>
+<ul>
+<li><a href=#fixed-16>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#421><a href=https://github.com/thephpleague/html-to-markdown/compare/4.2.0...4.2.1>4.2.1</a></a>
+<ul>
+<li><a href=#fixed-17>Fixed</a></li>
+<li><a href=#removed-1>Removed</a></li>
+</ul>
+</li>
+<li><a href=#420><a href=https://github.com/thephpleague/html-to-markdown/compare/4.1.1...4.2.0>4.2.0</a></a>
+<ul>
+<li><a href=#added-10>Added</a></li>
+<li><a href=#fixed-18>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#411><a href=https://github.com/thephpleague/html-to-markdown/compare/4.1.0...4.1.1>4.1.1</a></a>
+<ul>
+<li><a href=#fixed-19>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#410><a href=https://github.com/thephpleague/html-to-markdown/compare/4.0.1...4.1.0>4.1.0</a></a>
+<ul>
+<li><a href=#added-11>Added</a></li>
+<li><a href=#changed-4>Changed</a></li>
+</ul>
+</li>
+<li><a href=#401><a href=https://github.com/thephpleague/html-to-markdown/compare/4.0.0...4.0.1>4.0.1</a></a>
+<ul>
+<li><a href=#fixed-20>Fixed</a></li>
+<li><a href=#removed-2>Removed</a></li>
+</ul>
+</li>
+<li><a href=#400><a href=https://github.com/thephpleague/html-to-markdown/compare/3.1.1...4.0.0>4.0.0</a></a>
+<ul>
+<li><a href=#added-12>Added</a></li>
+<li><a href=#changed-5>Changed</a></li>
+</ul>
+</li>
+<li><a href=#311><a href=https://github.com/thephpleague/html-to-markdown/compare/3.1.0...3.1.1>3.1.1</a></a>
+<ul>
+<li><a href=#fixed-21>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#310><a href=https://github.com/thephpleague/html-to-markdown/compare/3.0.0...3.1.0>3.1.0</a></a>
+<ul>
+<li><a href=#added-13>Added</a></li>
+<li><a href=#changes>Changes</a></li>
+<li><a href=#fixed-22>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#300><a href=https://github.com/thephpleague/html-to-markdown/compare/2.2.2...3.0.0>3.0.0</a></a>
+<ul>
+<li><a href=#changed-6>Changed</a></li>
+</ul>
+</li>
+<li><a href=#222><a href=https://github.com/thephpleague/html-to-markdown/compare/2.2.1...2.2.2>2.2.2</a></a>
+<ul>
+<li><a href=#added-14>Added</a></li>
+<li><a href=#fixed-23>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#221><a href=https://github.com/thephpleague/html-to-markdown/compare/2.2.0...2.2.1>2.2.1</a></a>
+<ul>
+<li><a href=#fixed-24>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#220><a href=https://github.com/thephpleague/html-to-markdown/compare/2.1.2...2.2.0>2.2.0</a></a>
+<ul>
+<li><a href=#added-15>Added</a></li>
+<li><a href=#changed-7>Changed</a></li>
+<li><a href=#removed-3>Removed</a></li>
+</ul>
+</li>
+<li><a href=#212><a href=https://github.com/thephpleague/html-to-markdown/compare/2.1.1...2.1.2>2.1.2</a></a>
+<ul>
+<li><a href=#added-16>Added</a></li>
+<li><a href=#changed-8>Changed</a></li>
+</ul>
+</li>
+<li><a href=#211><a href=https://github.com/thephpleague/html-to-markdown/compare/2.1.0...2.1.1>2.1.1</a></a>
+<ul>
+<li><a href=#added-17>Added</a></li>
+</ul>
+</li>
+<li><a href=#210><a href=https://github.com/thephpleague/html-to-markdown/compare/2.0.1...2.1.0>2.1.0</a></a>
+<ul>
+<li><a href=#added-18>Added</a></li>
+<li><a href=#changed-9>Changed</a></li>
+<li><a href=#fixed-25>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#201><a href=https://github.com/thephpleague/html-to-markdown/compare/2.0.0...2.0.1>2.0.1</a></a>
+<ul>
+<li><a href=#fixed-26>Fixed</a></li>
+</ul>
+</li>
+<li><a href=#200><a href=https://github.com/thephpleague/html-to-markdown/compare/775f91e...2.0.0>2.0.0</a></a>
+<ul>
+<li><a href=#added-19>Added</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<section class=body>
+<h1 id=change-log>Change Log</h1>
+<p>All notable changes to this project will be documented in this file.
+Updates should follow the <a href=http://keepachangelog.com/>Keep a CHANGELOG</a> principles.</p>
+<h2 id=unreleasedunreleased><a href=https://github.com/thephpleague/html-to-markdown/compare/5.0.2...master>Unreleased</a></h2>
+<h2 id=502---2021-11-06><a href=https://github.com/thephpleague/html-to-markdown/compare/5.0.1...5.0.2>5.0.2</a> - 2021-11-06</h2>
+<h3 id=fixed>Fixed</h3>
+<ul>
+<li>Fixed missplaced comment nodes appearing at the start of the HTML input (#212)</li>
+</ul>
+<h2 id=501---2021-09-17><a href=https://github.com/thephpleague/html-to-markdown/compare/5.0.0...5.0.1>5.0.1</a> - 2021-09-17</h2>
+<h3 id=fixed-1>Fixed</h3>
+<ul>
+<li>Fixed lists not using the correct amount of indentation (#211)</li>
+</ul>
+<h2 id=500---2021-03-28><a href=https://github.com/thephpleague/html-to-markdown/compare/4.10.0...5.0.0>5.0.0</a> - 2021-03-28</h2>
+<h3 id=added>Added</h3>
+<ul>
+<li>Added support for tables (#203)
+<ul>
+<li>This feature is disable by default - see README for how to enable it</li>
+</ul>
+</li>
+<li>Added new <code>strip_placeholder_links</code> option to strip <code>&lt;a></code> tags without <code>href</code> attributes (#196)</li>
+<li>Added new methods to <code>ElementInterface</code>:
+<ul>
+<li><code>hasParent()</code></li>
+<li><code>getNextSibling()</code></li>
+<li><code>getPreviousSibling()</code></li>
+<li><code>getListItemLevel()</code></li>
+</ul>
+</li>
+<li>Added several parameter and return types across all classes</li>
+<li>Added new <code>PreConverterInterface</code> to allow converters to perform any necessary pre-parsing</li>
+</ul>
+<h3 id=changed>Changed</h3>
+<ul>
+<li>Supported PHP versions increased to PHP 7.2 - 8.0</li>
+<li><code>HtmlConverter::convert()</code> may now throw a <code>\RuntimeException</code> when unexpected <code>DOMDocument</code>-related errors occur</li>
+</ul>
+<h3 id=fixed-2>Fixed</h3>
+<ul>
+<li>Fixed complex nested lists containing heading and paragraphs (#198)</li>
+<li>Fixed consecutive emphasis producing incorrect markdown (#202)</li>
+</ul>
+<h2 id=4100---2020-06-30><a href=https://github.com/thephpleague/html-to-markdown/compare/4.9.1...4.10.0>4.10.0</a> - 2020-06-30</h2>
+<h3 id=added-1>Added</h3>
+<ul>
+<li>Added the ability to disable autolinking with a configuration option (#187, #188)</li>
+</ul>
+<h2 id=491---2019-12-27><a href=https://github.com/thephpleague/html-to-markdown/compare/4.9.0...4.9.1>4.9.1</a> - 2019-12-27</h2>
+<h3 id=fixed-3>Fixed</h3>
+<ul>
+<li>Fixed issue with HTML entity escaping in text (#184)</li>
+</ul>
+<h2 id=490---2019-11-02><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.3...4.9.0>4.9.0</a> - 2019-11-02</h2>
+<h3 id=added-2>Added</h3>
+<ul>
+<li>Added new option to preserve comments (#177, #179)</li>
+</ul>
+<h2 id=483---2019-10-31><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.2...4.8.3>4.8.3</a> - 2019-10-31</h2>
+<h3 id=fixed-4>Fixed</h3>
+<ul>
+<li>Fixed whitespace preservation around <code>&lt;code></code> tags (#174, #178)</li>
+</ul>
+<h2 id=482---2019-08-02><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.1...4.8.2>4.8.2</a> - 2019-08-02</h2>
+<h3 id=fixed-5>Fixed</h3>
+<ul>
+<li>Fixed headers not being placed onto a new line in some cases (#172)</li>
+<li>Fixed handling of links containing spaces (#175)</li>
+</ul>
+<h3 id=removed>Removed</h3>
+<ul>
+<li>Removed support for HHVM</li>
+</ul>
+<h2 id=481---2018-12-24><a href=https://github.com/thephpleague/html-to-markdown/compare/4.8.0...4.8.1>4.8.1</a> - 2018-12-24</h2>
+<h3 id=added-3>Added</h3>
+<ul>
+<li>Added support for PHP 7.3</li>
+</ul>
+<h3 id=fixed-6>Fixed</h3>
+<ul>
+<li>Fixed paragraphs following tables (#165, #166)</li>
+<li>Fixed incorrect list item escaping (#168, #169)</li>
+</ul>
+<h2 id=480---2018-09-18><a href=https://github.com/thephpleague/html-to-markdown/compare/4.7.0...4.8.0>4.8.0</a> - 2018-09-18</h2>
+<h3 id=added-4>Added</h3>
+<ul>
+<li>Added support for email auto-linking</li>
+<li>Added a new interface (<code>HtmlConverterInterface</code>) for the main <code>HtmlConverter</code> class</li>
+<li>Added additional test cases (#14)</li>
+</ul>
+<h3 id=changed-1>Changed</h3>
+<ul>
+<li>The <code>italic_style</code> option now defaults to <code>'*'</code> so that in-word emphasis is handled properly (#75)</li>
+</ul>
+<h3 id=fixed-7>Fixed</h3>
+<ul>
+<li>Fixed several issues of <code>&lt;code></code> and <code>&lt;pre></code> tags not converting to blocks or inlines properly (#26, #70, #102, #140, #161, #162)</li>
+<li>Fixed in-word emphasis using underscores as delimiter (#75)</li>
+<li>Fixed character escaping inside of <code>&lt;div></code> elements</li>
+<li>Fixed header edge cases</li>
+</ul>
+<h3 id=deprecated>Deprecated</h3>
+<ul>
+<li>The <code>bold_style</code> and <code>italic_style</code> options have been deprecated (#75)</li>
+</ul>
+<h2 id=470---2018-05-19><a href=https://github.com/thephpleague/html-to-markdown/compare/4.6.2...4.7.0>4.7.0</a> - 2018-05-19</h2>
+<h3 id=added-5>Added</h3>
+<ul>
+<li>Added <code>setOptions()</code> function for chainable calling (#149)</li>
+<li>Added new <code>list_item_style_alternate</code> option for converting every-other list with a different character (#155)</li>
+</ul>
+<h3 id=fixed-8>Fixed</h3>
+<ul>
+<li>Fixed insufficient newlines after code blocks (#144, #148)</li>
+<li>Fixed trailing spaces not being preserved in link anchors (#157)</li>
+<li>Fixed list-like lines not being escaped inside of lists items (#159)</li>
+</ul>
+<h2 id=462><a href=https://github.com/thephpleague/html-to-markdown/compare/4.6.1...4.6.2>4.6.2</a></h2>
+<h3 id=fixed-9>Fixed</h3>
+<ul>
+<li>Fixed issue with emphasized spaces (#146)</li>
+</ul>
+<h2 id=461><a href=https://github.com/thephpleague/html-to-markdown/compare/4.6.0...4.6.1>4.6.1</a></h2>
+<h3 id=fixed-10>Fixed</h3>
+<ul>
+<li>Fixed conversion of <code>&lt;pre></code> tags (#145)</li>
+</ul>
+<h2 id=460><a href=https://github.com/thephpleague/html-to-markdown/compare/4.5.0...4.6.0>4.6.0</a></h2>
+<h3 id=added-6>Added</h3>
+<ul>
+<li>Added support for ordered lists starting at numbers other than 1</li>
+</ul>
+<h3 id=fixed-11>Fixed</h3>
+<ul>
+<li>Fixed overly-eager escaping of list-like text (#141)</li>
+</ul>
+<h2 id=450><a href=https://github.com/thephpleague/html-to-markdown/compare/4.4.1...4.5.0>4.5.0</a></h2>
+<h3 id=added-7>Added</h3>
+<ul>
+<li>Added configuration option for list item style (#135, #136)</li>
+</ul>
+<h2 id=441><a href=https://github.com/thephpleague/html-to-markdown/compare/4.4.0...4.4.1>4.4.1</a></h2>
+<h3 id=fixed-12>Fixed</h3>
+<ul>
+<li>Fixed autolinking of invalid URLs (#129)</li>
+</ul>
+<h2 id=440><a href=https://github.com/thephpleague/html-to-markdown/compare/4.3.1...4.4.0>4.4.0</a></h2>
+<h3 id=added-8>Added</h3>
+<ul>
+<li>Added <code>hard_break</code> configuration option (#112, #115)</li>
+<li>The <code>HtmlConverter</code> can now be instantiated with an <code>Environment</code> (#118)</li>
+</ul>
+<h3 id=fixed-13>Fixed</h3>
+<ul>
+<li>Fixed handling of paragraphs in list item elements (#47, #110)</li>
+<li>Fixed phantom spaces when newlines follow <code>br</code> elements (#116, #117)</li>
+<li>Fixed link converter not sanitizing inner spaces properly (#119, #120)</li>
+</ul>
+<h2 id=431><a href=https://github.com/thephpleague/html-to-markdown/compare/4.3.0...4.3.1>4.3.1</a></h2>
+<h3 id=changed-2>Changed</h3>
+<ul>
+<li>Revised the sanitization implementation (#109)</li>
+</ul>
+<h3 id=fixed-14>Fixed</h3>
+<ul>
+<li>Fixed tag-like content not being escaped (#67, #109)</li>
+<li>Fixed thematic break-like content not being escaped (#65, #109)</li>
+<li>Fixed codefence-like content not being escaped (#64, #109)</li>
+</ul>
+<h2 id=430><a href=https://github.com/thephpleague/html-to-markdown/compare/4.2.2...4.3.0>4.3.0</a></h2>
+<h3 id=added-9>Added</h3>
+<ul>
+<li>Added full support for PHP 7.0 and 7.1</li>
+</ul>
+<h3 id=changed-3>Changed</h3>
+<ul>
+<li>Changed <code>&lt;pre></code> and <code>&lt;pre>&lt;code></code> conversions to use backticks instead of indendation (#102)</li>
+</ul>
+<h3 id=fixed-15>Fixed</h3>
+<ul>
+<li>Fixed issue where specified code language was not preserved (#70, #102)</li>
+<li>Fixed issue where <code>&lt;code></code> tags nested in <code>&lt;pre></code> was not converted properly (#70, #102)</li>
+<li>Fixed header-like content not being escaped (#76, #105)</li>
+<li>Fixed blockquote-like content not being escaped (#77, #103)</li>
+<li>Fixed ordered list-like content not being escaped (#73, #106)</li>
+<li>Fixed unordered list-like content not being escaped (#71, #107)</li>
+</ul>
+<h2 id=422><a href=https://github.com/thephpleague/html-to-markdown/compare/4.2.1...4.2.2>4.2.2</a></h2>
+<h3 id=fixed-16>Fixed</h3>
+<ul>
+<li>Fixed sanitization bug which sometimes removes desired content (#63, #101)</li>
+</ul>
+<h2 id=421><a href=https://github.com/thephpleague/html-to-markdown/compare/4.2.0...4.2.1>4.2.1</a></h2>
+<h3 id=fixed-17>Fixed</h3>
+<ul>
+<li>Fixed path to autoload.php when used as a library (#98)</li>
+<li>Fixed edge case for tags containing only whitespace (#99)</li>
+</ul>
+<h3 id=removed-1>Removed</h3>
+<ul>
+<li>Removed double HTML entity decoding, as this is not desireable (#60)</li>
+</ul>
+<h2 id=420><a href=https://github.com/thephpleague/html-to-markdown/compare/4.1.1...4.2.0>4.2.0</a></h2>
+<h3 id=added-10>Added</h3>
+<ul>
+<li>Added the ability to invoke HtmlConverter objects as functions (#85)</li>
+</ul>
+<h3 id=fixed-18>Fixed</h3>
+<ul>
+<li>Fixed improper handling of nested list items (#19 and #84)</li>
+<li>Fixed preceeding or trailing spaces within emphasis tags (#83)</li>
+</ul>
+<h2 id=411><a href=https://github.com/thephpleague/html-to-markdown/compare/4.1.0...4.1.1>4.1.1</a></h2>
+<h3 id=fixed-19>Fixed</h3>
+<ul>
+<li>Fixed conversion of empty paragraphs (#78)</li>
+<li>Fixed <code>preg_replace</code> so it wouldn&rsquo;t break UTF-8 characters (#79)</li>
+</ul>
+<h2 id=410><a href=https://github.com/thephpleague/html-to-markdown/compare/4.0.1...4.1.0>4.1.0</a></h2>
+<h3 id=added-11>Added</h3>
+<ul>
+<li>Added <code>bin/html-to-markdown</code> script</li>
+</ul>
+<h3 id=changed-4>Changed</h3>
+<ul>
+<li>Changed default italic character to <code>_</code> (#58)</li>
+</ul>
+<h2 id=401><a href=https://github.com/thephpleague/html-to-markdown/compare/4.0.0...4.0.1>4.0.1</a></h2>
+<h3 id=fixed-20>Fixed</h3>
+<ul>
+<li>Added escaping to avoid * and _ in a text being rendered as emphasis (#48)</li>
+</ul>
+<h3 id=removed-2>Removed</h3>
+<ul>
+<li>Removed the demo (#51)</li>
+<li><code>.styleci.yml</code> and <code>CONTRIBUTING.md</code> are no longer included in distributions (#50)</li>
+</ul>
+<h2 id=400><a href=https://github.com/thephpleague/html-to-markdown/compare/3.1.1...4.0.0>4.0.0</a></h2>
+<p>This release changes the visibility of several methods/properties. #42 and #43 brought to light that some visiblities were
+not ideally set, so this releases fixes that. Moving forwards this should reduce the chance of introducing BC-breaking changes.</p>
+<h3 id=added-12>Added</h3>
+<ul>
+<li>Added new <code>HtmlConverter::getEnvironment()</code> method to expose the <code>Environment</code> (#42, #43)</li>
+</ul>
+<h3 id=changed-5>Changed</h3>
+<ul>
+<li>Changed <code>Environment::addConverter()</code> from <code>protected</code> to <code>public</code>, enabling custom converters to be added (#42, #43)</li>
+<li>Changed <code>HtmlConverter::createDOMDocument()</code> from <code>protected</code> to <code>private</code></li>
+<li>Changed <code>Element::nextCached</code> from <code>protected</code> to <code>private</code></li>
+<li>Made the <code>Environment</code> class <code>final</code></li>
+</ul>
+<h2 id=311><a href=https://github.com/thephpleague/html-to-markdown/compare/3.1.0...3.1.1>3.1.1</a></h2>
+<h3 id=fixed-21>Fixed</h3>
+<ul>
+<li>Empty HTML strings now result in empty Markdown documents (#40, #41)</li>
+</ul>
+<h2 id=310><a href=https://github.com/thephpleague/html-to-markdown/compare/3.0.0...3.1.0>3.1.0</a></h2>
+<h3 id=added-13>Added</h3>
+<ul>
+<li>Added new <code>equals</code> method to <code>Element</code> to check for equality</li>
+</ul>
+<h3 id=changes>Changes</h3>
+<ul>
+<li>Use Linux line endings consistently instead of plaform-specific line endings (#36)</li>
+</ul>
+<h3 id=fixed-22>Fixed</h3>
+<ul>
+<li>Cleaned up code style</li>
+</ul>
+<h2 id=300><a href=https://github.com/thephpleague/html-to-markdown/compare/2.2.2...3.0.0>3.0.0</a></h2>
+<h3 id=changed-6>Changed</h3>
+<ul>
+<li>Changed namespace to <code>League\HTMLToMarkdown</code></li>
+<li>Changed packagist name to <code>league/html-to-markdown</code></li>
+<li>Re-organized code into several separate classes</li>
+<li><code>&lt;a></code> tags with identical href and inner text are now rendered using angular bracket syntax (#31)</li>
+<li><code>&lt;div></code> elements are now treated as block-level elements (#33)</li>
+</ul>
+<h2 id=222><a href=https://github.com/thephpleague/html-to-markdown/compare/2.2.1...2.2.2>2.2.2</a></h2>
+<h3 id=added-14>Added</h3>
+<ul>
+<li>Added support for PHP 5.6 and HHVM</li>
+<li>Enabled testing against PHP 7 nightlies</li>
+<li>Added this CHANGELOG.md</li>
+</ul>
+<h3 id=fixed-23>Fixed</h3>
+<ul>
+<li>Fixed whitespace preservation between inline elements (#9 and #10)</li>
+</ul>
+<h2 id=221><a href=https://github.com/thephpleague/html-to-markdown/compare/2.2.0...2.2.1>2.2.1</a></h2>
+<h3 id=fixed-24>Fixed</h3>
+<ul>
+<li>Preserve placeholder links (#22)</li>
+</ul>
+<h2 id=220><a href=https://github.com/thephpleague/html-to-markdown/compare/2.1.2...2.2.0>2.2.0</a></h2>
+<h3 id=added-15>Added</h3>
+<ul>
+<li>Added CircleCI config</li>
+</ul>
+<h3 id=changed-7>Changed</h3>
+<ul>
+<li><code>&lt;pre></code> blocks are now treated as code elements</li>
+</ul>
+<h3 id=removed-3>Removed</h3>
+<ul>
+<li>Dropped support for PHP 5.2</li>
+<li>Removed incorrect README comment regarding <code>#text</code> nodes (#17)</li>
+</ul>
+<h2 id=212><a href=https://github.com/thephpleague/html-to-markdown/compare/2.1.1...2.1.2>2.1.2</a></h2>
+<h3 id=added-16>Added</h3>
+<ul>
+<li>Added the ability to blacklist/remove specific node types (#11)</li>
+</ul>
+<h3 id=changed-8>Changed</h3>
+<ul>
+<li>Line breaks are now placed after divs instead of before them</li>
+<li>Newlines inside of link texts are now removed</li>
+<li>Updated the minimum PHPUnit version to 4.*</li>
+</ul>
+<h2 id=211><a href=https://github.com/thephpleague/html-to-markdown/compare/2.1.0...2.1.1>2.1.1</a></h2>
+<h3 id=added-17>Added</h3>
+<ul>
+<li>Added options to customize emphasis characters</li>
+</ul>
+<h2 id=210><a href=https://github.com/thephpleague/html-to-markdown/compare/2.0.1...2.1.0>2.1.0</a></h2>
+<h3 id=added-18>Added</h3>
+<ul>
+<li>Added option to strip HTML tags without Markdown equivalents</li>
+<li>Added <code>convert()</code> method for converter reuse</li>
+<li>Added ability to set options after instance construction</li>
+<li>Documented the required PHP extensions (#4)</li>
+</ul>
+<h3 id=changed-9>Changed</h3>
+<ul>
+<li>ATX style now used for h1 and h2 tags inside blockquotes</li>
+</ul>
+<h3 id=fixed-25>Fixed</h3>
+<ul>
+<li>Newlines inside blockquotes are now started with a bracket</li>
+<li>Fixed some incorrect docblocks</li>
+<li><code>__toString()</code> now returns an empty string if input is empty</li>
+<li>Convert head tag if body tag is empty (#7)</li>
+<li>Preserve special characters inside tags without md equivalents (#6)</li>
+</ul>
+<h2 id=201><a href=https://github.com/thephpleague/html-to-markdown/compare/2.0.0...2.0.1>2.0.1</a></h2>
+<h3 id=fixed-26>Fixed</h3>
+<ul>
+<li>Fixed first line indentation for multi-line code blocks</li>
+<li>Fixed consecutive anchors get separating spaces stripped (#3)</li>
+</ul>
+<h2 id=200><a href=https://github.com/thephpleague/html-to-markdown/compare/775f91e...2.0.0>2.0.0</a></h2>
+<h3 id=added-19>Added</h3>
+<ul>
+<li>Initial release</li>
+</ul>
+</section>
+<div class=post-tags>
+</div>
+</article>
+</main>
+<footer>
+<hr><a class=soc href=https://github.com/crfdiab/arc title=GitHub><i data-feather=github></i></a>|<a class=soc href=https://github.com/muhmd_diab/ title=Twitter><i data-feather=twitter></i></a>|⚡️
+2022 © dev.portalsindex.xyz | <a href=https://github.com/athul/archie>Archie Theme</a> | Built with <a href=https://gohugo.io>Hugo</a>
+</footer>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-107705235-4','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<script>feather.replace()</script></div>
+</body>
+</html>
