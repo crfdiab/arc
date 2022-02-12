@@ -25,7 +25,7 @@ How are seismic waves measured and how are they measured?
 
 Seismograms record seismic waves. Over the past century, scientists have developed several ways of measuring earthquake intensity. The currently accepted method is the moment magnitude scale, which measures the total amount of energy released by the earthquake.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_36014" loading="lazy" src="https://www.youtube.com/embed/Z98LW69ElL0?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_24697" loading="lazy" src="https://www.youtube.com/embed/Z98LW69ElL0?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 When was the first earthquake magnitude scale created?
 ------------------------------------------------------
@@ -42,7 +42,7 @@ How is the magnitude of an earthquake related to its strength?
 
 Magnitude is an estimate of the relative “size” or strength of an earthquake, and thus its potential for causing ground-shaking. It is “approximately related to the released seismic energy.” Isoseismal map for the 1968 Illinois earthquake. The irregular distribution of shaking arises from variations of geology and/or ground conditions.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_77402" loading="lazy" src="https://www.youtube.com/embed/uAWDEM8iaVo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_13439" loading="lazy" src="https://www.youtube.com/embed/uAWDEM8iaVo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 When was the first earthquake measured on the Richter scale?
 ------------------------------------------------------------
@@ -71,7 +71,7 @@ Is the Richter scale the same as the Mercalli scale?
 
 There are multiple different earthquake scales measuring things from intensity to damage. The Richter Scale is a logarithmic scale, measuring the scale of the earthquake based on recordings from seismographs. The Modified Mercalli Intensity Scale measures the shaking produced by the earthquake.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_80033" loading="lazy" src="https://www.youtube.com/embed/CYQ2Ow2UkrI?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_76464" loading="lazy" src="https://www.youtube.com/embed/CYQ2Ow2UkrI?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 How are earthquake magnitudes measured by the USGS?
 ---------------------------------------------------
@@ -83,11 +83,11 @@ Is the Richter scale still used for earthquakes?
 
 You have probably heard of the Richter scale which is still used for small earthquakes, but most large earthquakes are now commonly reported using the moment magnitude scale(see below). Richter scale
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_31418" loading="lazy" src="https://www.youtube.com/embed/hLENDz3sFuM?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_67573" loading="lazy" src="https://www.youtube.com/embed/hLENDz3sFuM?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 A Richter scale is normally numbered 1-10, though there is no upper limit. It is logarithmic which means, for example, that an earthquake measuring magnitude 5 is ten times more powerful than an earthquake measuring 4. Earthquakes measuring 1-2 on the scale happen regularly, and they are so small that people cannot feel them.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_92013" loading="lazy" src="https://www.youtube.com/embed/rwz590Lfq9M?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_57804" loading="lazy" src="https://www.youtube.com/embed/rwz590Lfq9M?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 For earthquakes that occurred between about 1890 (when modern seismographs came into use) and 1935 when Charles Richter developed the magnitude scale, people went back to the old records and compared the seismograms from those days with similar records for later earthquakes.
 
@@ -96,7 +96,7 @@ How are earthquakes measured in a seismic network?
 
 Each seismic station in the network measures the movement of the ground at that site. The slip of one block of rock over another in an earthquake releases energy that makes the ground vibrate.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_13805" loading="lazy" src="https://www.youtube.com/embed/NaNw9LHq9dc?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_35133" loading="lazy" src="https://www.youtube.com/embed/NaNw9LHq9dc?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Is the Richter scale the same size as an earthquake?
 ----------------------------------------------------

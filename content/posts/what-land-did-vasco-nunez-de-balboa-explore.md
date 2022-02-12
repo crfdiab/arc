@@ -25,7 +25,7 @@ Why did Vasco Nunez de Balboa name the Bay San Miguel?
 
 After traveling more than 110 km (68 mi), Balboa named the bay where they ended up San Miguel, because they arrived on September 29, the feast day of the archangel Michael. He named the new sea Mar del Sur, since they had traveled south to reach it.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_76866" loading="lazy" src="https://www.youtube.com/embed/ggtksTWwl60?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_26186" loading="lazy" src="https://www.youtube.com/embed/ggtksTWwl60?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Who was the first Spanish explorer to see the Pacific Ocean?
 ------------------------------------------------------------
@@ -37,7 +37,7 @@ Why was Vasco Nunez de Balboa executed in 1519?
 
 Balboa’s achievement and ambition posed a threat to Pedro Arias Dávila, the Spanish governor of Darién, who falsely accused him of treason and had him executed in early 1519. Balboa was born in 1475 in Jerez de los Caballeros, a town in the impoverished Extremadura region of Spain.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_68689" loading="lazy" src="https://www.youtube.com/embed/Ilw6tmGbJhw?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_47274" loading="lazy" src="https://www.youtube.com/embed/Ilw6tmGbJhw?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 When did Vasco Nunez de Balboa return to Panama?
 ------------------------------------------------
@@ -59,4 +59,4 @@ Why was Vasco Nunez de balboa replaced as governor of Darien?
 
 Vasco Nunez de Balboa. Balboa had been falsely accused of treason by his enemies in Spain, and lost favor with the king. His request to search for this ocean was denied by the king of Spain. He was also replaced as governor of Darien by a man named Pedro Arias Dávila (usually called Pedrarias).
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_98412" loading="lazy" src="https://www.youtube.com/embed/dOzLqDXa9uo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_72820" loading="lazy" src="https://www.youtube.com/embed/dOzLqDXa9uo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>

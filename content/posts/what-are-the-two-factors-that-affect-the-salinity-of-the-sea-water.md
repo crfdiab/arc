@@ -25,7 +25,7 @@ How does the vertical distribution of salinity change with depth?
 
 Vertical Distribution of Salinity Salinity changes with depth, but the way it changes depends upon the location of the sea. Salinity at the surface increases by the loss of water to ice or evaporation, or decreased by the input of fresh waters, such as from the rivers.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_71426" loading="lazy" src="https://www.youtube.com/embed/6EJ6ZhTx1OA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_28148" loading="lazy" src="https://www.youtube.com/embed/6EJ6ZhTx1OA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 How are high and low tides related to salinity?
 -----------------------------------------------
@@ -42,7 +42,7 @@ What is the percentage of salinity in the Dead Sea?
 
 Take one as the example, Lake Vanda is being categorized as the Salt lake as it has 35% percentage of the salinity water level. On the another hand, the Dead sea has 33.7% salinity in percentage while ocean water in the world also has approximately 3.5% of salinity level on average.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_51167" loading="lazy" src="https://www.youtube.com/embed/eh80OebyMEo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_35487" loading="lazy" src="https://www.youtube.com/embed/eh80OebyMEo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 How does thawing of icebergs affect seawater salinity?
 ------------------------------------------------------
@@ -54,4 +54,4 @@ Where is the lowest salinity in the ocean?
 
 Lowest salinity (violet and blue areas) is found in areas of freshwater runoff, such as the mouths of rivers, and where rainfall is high (as in the ITCZ); highest salinity (red and yellow) is found where evaporation rates are highest.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_22255" loading="lazy" src="https://www.youtube.com/embed/vt2Zl0HIQsA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_64444" loading="lazy" src="https://www.youtube.com/embed/vt2Zl0HIQsA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>

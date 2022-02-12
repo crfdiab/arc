@@ -25,7 +25,7 @@ Who are the members of the Indian Museum?
 
 This introductory video features members of the museum’s Indian Advisory Panel discussing the role of Native people in the operations of the Museum of Indian Arts &amp; Culture.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_20338" loading="lazy" src="https://www.youtube.com/embed/3nAlA9u7c50?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_21188" loading="lazy" src="https://www.youtube.com/embed/3nAlA9u7c50?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Where is the Fort Union Museum in New Mexico?
 ---------------------------------------------
@@ -37,7 +37,7 @@ Are there any Wild West legends in New Mexico?
 
 The Wild West was a violent era during which outlaws and lawmen alike spent time in New Mexico. So it makes sense that some of the most notorious individuals from that time are buried in our state. Here are 6 fascinating wild west legends buried in New Mexico you may not have heard about:
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_22292" loading="lazy" src="https://www.youtube.com/embed/fBgENeBxobw?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_16964" loading="lazy" src="https://www.youtube.com/embed/fBgENeBxobw?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Is there a Museum of Art in Las Cruces NM?
 ------------------------------------------
@@ -54,7 +54,7 @@ How much is the New Mexico Museum of Natural History?
 
 Museum Pricing Museum Admission Only Adults (13-59) $8.00 Seniors (60+) $7.00 Children (3-12) $5.00
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_70950" loading="lazy" src="https://www.youtube.com/embed/Tb59xfi--CI?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_10271" loading="lazy" src="https://www.youtube.com/embed/Tb59xfi--CI?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Where was the first synagogue in New Mexico?
 --------------------------------------------
@@ -71,7 +71,7 @@ Who are the hidden Jews of New Mexico?
 
 With the revelation that Sanchez was almost certainly one of New Mexico’s hidden or crypto-Jews, his family traditions made sense to him. He launched a DNA project to test his relatives, along with some of the parishioners at Albuquerque’s St. Edwin’s Church, where he works. As word got out, others in the community began contacting him.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_88036" loading="lazy" src="https://www.youtube.com/embed/pRM82TxDcmU?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_51561" loading="lazy" src="https://www.youtube.com/embed/pRM82TxDcmU?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Where was the movie The ranch filmed in New Mexico?
 ---------------------------------------------------
@@ -88,7 +88,7 @@ Where was the movie Silverado filmed in New Mexico?
 
 This movie was filmed in Santa Fe, Abiquiú, and on the Bonanza Creek Movie Ranch. The ranch had running water and electricity, a far cry from other locations, where buildings consisted of facades. 3. Silverado (1985) The opening scene of “Silverado” was shot in White Rock and Los Alamos.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_61167" loading="lazy" src="https://www.youtube.com/embed/CeBMecnfU4Q?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_26912" loading="lazy" src="https://www.youtube.com/embed/CeBMecnfU4Q?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Where are the museum shops in New Mexico?
 -----------------------------------------
@@ -105,7 +105,7 @@ Is the New Mexico Military Museum moving forward?
 
 The New Mexico Military Museum is moving forward with plans to inventory and catalog our collection to standard, re-fresh and design new exhibits, as well as focus on more community involvement. Learn about the history of the institution and building, our mission, and current goals.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_78960" loading="lazy" src="https://www.youtube.com/embed/zQ3IbO4vFBA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_53016" loading="lazy" src="https://www.youtube.com/embed/zQ3IbO4vFBA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 How is economic development in Santa Fe New Mexico?
 ---------------------------------------------------
@@ -122,7 +122,7 @@ How to start a business in Santa Fe New Mexico?
 
 To start a business, expand or relocate your business to Santa Fe, please call or email Fabian Trujillo. Our County and City of Santa Fe Economic Development newsletters provide the most up-to-date resources for small businesses. Sign up for the Newsletter by clicking here .
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_49131" loading="lazy" src="https://www.youtube.com/embed/vxXVZsjEBoE?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_65921" loading="lazy" src="https://www.youtube.com/embed/vxXVZsjEBoE?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 When did the New Mexico Museum of Art open?
 -------------------------------------------
@@ -144,7 +144,7 @@ Is the Georgia O’Keeffe Museum in Santa Fe closed?
 
 Alfred Stieglitz. Georgia O’Keeffe, 1918. Gelatin silver print, 3 1/2 x 4 1/2 inches. Museum Purchase. \[2014.3.78\] A Great American Artist. A Great American Story. While the galleries are currently closed, we invite you to keep in touch and explore the art and life of Georgia O’Keeffe online.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_27926" loading="lazy" src="https://www.youtube.com/embed/DsjvlnnkBOA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_61620" loading="lazy" src="https://www.youtube.com/embed/DsjvlnnkBOA?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Where is the city of Santa Fe New Mexico?
 -----------------------------------------
@@ -156,7 +156,7 @@ How to submit an event in Santa Fe?
 
 Persons wishing to verify the details of an event should contact the organizer. Santa Fe Event Organizers: If you have a Santa Fe-based event that would be of interest to Santa Fe visitors and would like to post the event on the Events Calendar page, click here to submit your event.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_96194" loading="lazy" src="https://www.youtube.com/embed/WRf8tDv2yCI?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_17219" loading="lazy" src="https://www.youtube.com/embed/WRf8tDv2yCI?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Where is the New Mexico Museum of Art?
 --------------------------------------
@@ -173,7 +173,7 @@ Are there gated communities in Santa Fe NM?
 
 Las Campanas is where a life outdoors comes naturally. Las Campanas is the premier gated golf community in Santa Fe NM. In this secluded haven, with more than 300 days of sunshine a year and an abundance of outdoor and artistic pursuits, you’ll find an extraordinary place to call home.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_18798" loading="lazy" src="https://www.youtube.com/embed/32EmzURs12E?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_38952" loading="lazy" src="https://www.youtube.com/embed/32EmzURs12E?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 How does the Museum of New Mexico foundation work?
 --------------------------------------------------
@@ -190,4 +190,4 @@ Where to shop in Santa Fe New Mexico?
 
 Shop our customer favorite botanical jewelry from Michael Michaud. on Museum Hill in Santa Fe, NM. on Museum Hill in Santa Fe, NM. in downtown Santa Fe, NM.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_41747" loading="lazy" src="https://www.youtube.com/embed/pJUxKxrLa18?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_80932" loading="lazy" src="https://www.youtube.com/embed/pJUxKxrLa18?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>

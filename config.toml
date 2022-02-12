@@ -1,8 +1,8 @@
 baseURL = "https://bigkb.co.uk/"
 languageCode = "en-us"
-title = "Questions Archive"
+title = "Big Knowledgebase"
 theme="archie"
-copyright = "© dev.portalsindex.xyz"
+copyright = "©bigkb.co.uk"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
