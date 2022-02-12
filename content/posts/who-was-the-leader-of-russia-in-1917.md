@@ -25,7 +25,7 @@ Who was the British prime minister during the Russian Revolution?
 
 British Prime Minister Winston Churchill later summed up the move by the Germans: “They turned upon Russia the most grisly of weapons. They transported Lenin in a sealed truck like a plague bacillus.” When Lenin returned home to Russia in April 1917, the Russian Revolution was already beginning.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_43643" loading="lazy" src="https://www.youtube.com/embed/VxHUeHhdYz0?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_39103" loading="lazy" src="https://www.youtube.com/embed/VxHUeHhdYz0?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Many socialist political organizations were engaged in daily struggle and vied for influence within the Duma and the Soviets, central among which were the Bolsheviks (“Ones of the Majority”) led by Vladimir Lenin.
 
@@ -66,7 +66,7 @@ When did the Russian Federation become a country?
 
 This is a list of presidents of the Russian Federation, a country that was formed in 1991 after the fall of the Soviet Union. This list includes only those persons who were sworn into office as President of the Russian Federation following the ratification of the Russian Constitution, which took effect in 1993.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_73220" loading="lazy" src="https://www.youtube.com/embed/KOK1TMSyKcM?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_49430" loading="lazy" src="https://www.youtube.com/embed/KOK1TMSyKcM?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 How did the Russian Revolution come to an end?
 ----------------------------------------------

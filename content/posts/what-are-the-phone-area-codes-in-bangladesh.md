@@ -25,7 +25,7 @@ How to call from United States to Bangladesh?
 
 To call Bangladesh simply dial your exit country code, the Bangladesh country code and the area phone code shown below, all before your local number. Once you’ve made your call, remember; Rebtel use the highest quality, real phone lines with great value rates at the cheapest prices.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_44202" loading="lazy" src="https://www.youtube.com/embed/0JJ54GMc7OQ?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_61271" loading="lazy" src="https://www.youtube.com/embed/0JJ54GMc7OQ?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 What does the country code + 880 mean in Bangladesh?
 ----------------------------------------------------
@@ -42,14 +42,14 @@ Where can I find the country code for Anguilla?
 
 Country Codes COUNTRY COUNTRY CODE ISO CODES POPULATION AREA KM 2 Anguilla 1-264 AI / AIA 13,254 102 Antarctica 672 AQ / ATA 0 14,000,000 Antigua and Barbuda 1-268 AG / ATG 86,754 443 Argentina 54 AR / ARG 41,343,201 2,766,890
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_90907" loading="lazy" src="https://www.youtube.com/embed/jezpyqp240I?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_75899" loading="lazy" src="https://www.youtube.com/embed/jezpyqp240I?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 What are the country codes for Bangladesh and Belarus?
 ------------------------------------------------------
 
 Country Codes COUNTRY COUNTRY CODE ISO CODES Bangladesh 880 BD / BGD Barbados 1-246 BB / BRB Belarus 375 BY / BLR Belgium 32 BE / BEL
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_37805" loading="lazy" src="https://www.youtube.com/embed/Ef8FpRkDtQE?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_25605" loading="lazy" src="https://www.youtube.com/embed/Ef8FpRkDtQE?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Which is the Bangladesh country code, 880 or 880?
 -------------------------------------------------
@@ -293,7 +293,7 @@ Which is the postal code of Dhaka Division?
 
 Dhaka division: District Area Postal codes Narsingdi Narsingdi City 1600-05 Rajbari Rajbari City 7700/7710-11 Shariatpur Shariatpur City 8000-02 Tangail Tangail Ciy 1900-04
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_19733" loading="lazy" src="https://www.youtube.com/embed/EFTu71-54yo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_62710" loading="lazy" src="https://www.youtube.com/embed/EFTu71-54yo?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 What is the postal code of Bandarban, Bangladesh?
 -------------------------------------------------

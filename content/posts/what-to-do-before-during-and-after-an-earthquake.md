@@ -25,7 +25,7 @@ What to do during a class 9 earthquake?
 
 To learn about the project on disaster management of class 9, below is the link: What to do During an Earthquake? Connections of gas lines and appliances must be made flexible.
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_82196" loading="lazy" src="https://www.youtube.com/embed/hWSu4l1RxLg?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="__youtube_prefs__  epyt-is-override  no-lazyload" data-no-lazy="1" data-origheight="433" data-origwidth="770" data-skipgform_ajax_framebjll="" height="433" id="_ytid_73148" loading="lazy" src="https://www.youtube.com/embed/hWSu4l1RxLg?enablejsapi=1&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&loop=0&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&" title="YouTube player" width="770"></iframe>
 
 Here are some earthquake safety tips for before, during, and after an earthquake. This is one of the most important safety measures to be taken during an earthquake. Cover your head and neck with your arms or an object so that you are protected from any debris or furniture falling during the earthquake.
 
