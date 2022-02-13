@@ -13,11 +13,6 @@ googleAnalytics = "UA-107705235-4"
   subtitle = "Archive For Questions And Answers"
 
 [[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/crfdiab/arc"
-
-[[params.social]]
 name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/muhmd_diab/"
